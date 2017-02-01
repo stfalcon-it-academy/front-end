@@ -1,24 +1,143 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Title</title>
-</head>
-<body>
-<section id="lesson-plan">
-  <h1>
-    Введення в CSS
-  </h1>
-  <h2>
-    Способи додавання CSS на сторінку
-  </h2>
-  <ol>
-    <li>
-      <code>
-        &lt;link rel="stylesheet" href="#"&gt;
-      </code>
-    </li>
-  </ol>
-</section>
-</body>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+    <head>
+        <meta charset="UTF-8">
+        <title>Title</title>
+
+      <style>
+        table {
+          border-collapse: collapse; /* Отображать двойные линии как одинарные */
+        }
+        th {
+          background: #ccc; /* Цвет фона */
+          color: mediumvioletred;
+          text-align: center; /* Выравнивание по левому краю */
+        }
+        td, th {
+          border: 1px solid #800; /* Параметры границы */
+          padding: 4px; /* Поля в ячейках */
+        }
+      </style>
+
+
+
+    </head>
+    <body class="body-class" id="body-id">
+
+       <section id="lesson-plan" class="lesson-plan">
+        <h1>
+          Введення в CSS
+        </h1>
+      <h2 class="class-h2">
+        Способи додавання CSS на сторінку
+      </h2>
+      <ol id="id-ol" >
+        <li>
+          <code>
+            &lt;link rel="stylesheet" href="#"&gt;
+          </code>
+        </li>
+      </ol>
+    </section>
+
+
+        <table>
+          <caption> <h2 style="color: darkblue";>Cписок селекторів, якими можна вибрати дані елементи </h2></caption>
+            <thead>
+                <tr>
+                  <th><code> &lt;body&gt; </code></th>
+                  <th><code> &lt;section &gt;</code></th>
+                  <th><code> &lt;h1 &gt;</code></th>
+                  <th><code> &lt;h2 &gt;</code></th>
+                  <th><code> &lt;ol &gt;</code></th>
+                  <th><code> &lt;li &gt;</code></th>
+                </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td> <code>head body {}</code> </td>
+                <td> <code>head body section{}</code> </td>
+                <td> <code>body section h1{}</code> </td>
+                <td> <code>body section h2{}</code> </td>
+                <td> <code>body section ol{}</code> </td>
+                <td> <code> section ol li{}</code> </td>
+              </tr>
+              <tr>
+                <td> <code>body {}</code> </td>
+                <td> <code>section{}</code> </td>
+                <td> <code>h1 {}</code> </td>
+                <td> <code>h2 {}</code> </td>
+                <td> <code>ol {}</code> </td>
+                <td> <code>li{}</code> </td>
+              </tr>
+              <tr>
+                <td> <code>.body-class{}</code> </td>
+                <td> <code>body section{}</code> </td>
+                <td> <code>section h1{}</code> </td>
+                <td> <code>section h2{}</code> </td>
+                <td> <code> section ol {}</code> </td>
+                <td> <code> ul li {}</code> </td>
+              </tr>
+              <tr>
+                <td> <code>#body-id {}</code> </td>
+                <td><code>#lesson-plan {}</code></td>
+                <td><code>#id-h1 {}</code></td>
+                <td><code>#id-h2 {}</code></td>
+                <td> <code>#id-ol {}</code> </td>
+                <td> <code>#id-li {}</code> </td>
+              </tr>
+              <tr>
+                <td> <code></code> </td>
+                <td> <code>.lesson-plan {}</code> </td>
+                <td> <code>.class-h1 {}</code> </td>
+                <td> <code>.class-h2 {}</code> </td>
+                <td> <code>.class-ol {}</code> </td>
+                <td> <code>.class-li {}</code> </td>
+              </tr>
+              <tr>
+                <td> <code></code> </td>
+                <td> <code>body > section {}</code> </td>
+                <td> <code>section > h1 {}</code> </td>
+                <td> <code>section > h2 {}</code> </td>
+                <td> <code>section > ol {}</code> </td>
+                <td> <code>ol >li {}</code> </td>
+              </tr>
+              <tr>
+                <td> <code></code> </td>
+                <td> <code></code> </td>
+                <td> <code> [class~="lesson-plan"] h1 </code> </td> <!-- цвет текста применяется к селектору H1, если имя класса у слоя задано как "lesson-plan". -->
+                <td> <code> h1 + h2</code> </td>
+                <td> <code> h2.class-h2 +ol</code> </td>
+                <td> <code>#id-ol >li</code> </td>
+              </tr>
+
+              <tr>
+                <td> <code></code> </td>
+                <td> <code></code> </td>
+                <td> <code></code> </td>
+                <td> <code></code> </td>
+                <td> <code></code> </td>
+                <td> <code> section li</code> </td>
+              </tr>
+
+              <tr>
+                <td> <code></code> </td>
+                <td> <code></code> </td>
+                <td> <code></code> </td>
+                <td> <code></code> </td>
+                <td> <code></code> </td>
+                <td> <code>section > ol >li {}</code> </td>
+              </tr>
+              <tr>
+                <td> <code></code> </td>
+                <td> <code></code> </td>
+                <td> <code></code> </td>
+                <td> <code></code> </td>
+                <td> <code></code> </td>
+                <td> <code>[class|="class"] {}</code> </td> <!--имя класса начинается именно с этого слова и в значении встречаются дефисы-->
+              </tr>
+            </tbody>
+        </table>
+
+    </body>
 </html>
