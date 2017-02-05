@@ -1,0 +1,23 @@
+html {
+  font-family: 'Montserrat', sans-serif;
+}
+.one-clss {
+  width: 100%;
+  height: 200px;
+  background-color: #232323;
+}
+.header-horisontal-menu ul {
+  overflow: hidden
+}
+.header-horisontal-menu a {
+  display: block;
+  text-decoration: none;
+  text-align: left;
+  color: #ffffff;
+}
+.header-horisontal-menu li {
+  float: left;
+}
+.clear {
+  clear: both;
+}
