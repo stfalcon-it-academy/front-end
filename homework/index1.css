@@ -1,0 +1,48 @@
+
+p{
+  font-family: "Montserrat Light";
+  font-size: 15px;
+  line-height: 1.5em;
+  padding-bottom: 15px;
+
+}
+h1{
+  font-family: "Montserrat Light";
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+.text{
+  width: 870px;
+  height: 662px;
+  text-align: justify;
+  word-spacing:0.2em;
+
+}
+.inline1,.inline2,.inline3{
+  display: inline-block;
+}
+.inline1{
+  border-right: 1px solid darkgrey;
+  padding-right: 23px;
+  margin-bottom: 40px;
+}
+.inline2{
+  border-right: 1px solid darkgray;
+  padding-left: 19px;
+  text-align: center;
+  padding-right: 22px;
+}
+.inline3{
+  text-align: center;
+  padding-left: 24px;
+}
+.darkgrey{
+  color: #666666;
+}
+span{
+  font-size: 14px;
+  color: #999999;
+}
+html{
+  margin-left: 27px;
+}
