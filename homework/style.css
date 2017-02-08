@@ -1,13 +1,49 @@
-li{
-  list-style: none;
+body {
+  background-color: #555555;
+  width: 1000px;
 }
-.num{
-  color: white;
-  background: #2980B9;
-  display: inline-block;
-  text-align: center;
-  margin: 5px 10px;
-  line-height: 40px;
-  width: 40px;
-  height: 40px;
+.content {
+   width: 920px;
+   font-size: 14px;
+ }
+ol {
+   counter-reset: list 0;
+ }
+ol li:before {
+   counter-increment: list;
+   content: counter(list);
+   color: #ffffff;
+   font-size: 24px;
+   font-family: Times New Roman, sans-serif;
+   position: relative;
+   background-color: #cc4242;
+   float: left;  width: 50px;
+   text-align: center;
+   line-height: 74px;
+ }
+ol li:nth-child(odd):before {
+   background-color: #cc4242;
+ }
+
+ol li:nth-child(even):before {
+   background-color: #ff5353;
+ }
+li {
+  list-style-type: none;
+ }
+ol li {
+   text-align: left;
+   position: relative;
+   float: right;
+   font-family: Arial, sans-serif;
+ }
+ol li:nth-child(odd) {
+   background-color: #cccccc;
+ }
+ol li:nth-child(even) {
+   background-color: #ffffff;
+ }
+ol li div {
+  padding-top: 13px;
+  padding-right: 12px;
 }
