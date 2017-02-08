@@ -10,6 +10,7 @@ html {
   width: 100%;
   height: 200px;
   background-color: #232323;
+  font-size: 0.875em;
 }
 .header-horisontal-menu {
   overflow: hidden;
@@ -40,7 +41,21 @@ html {
 .telephone {
   float: left; /* Обтекание справа */
   width: 50%; /* Ширина текстового блока */
+  margin: 0px;
 }
 .log-in {
   text-align: right; /* Выравнивание по правому краю */
+  float: right; /* Обтекание справа */
+  width: 50%; /* Ширина текстового блока */
+  margin: 0px;
+}
+.logo {
+  display: block;
+  float: left;
+  width: 50%;
+}
+.header-search {
+  display: block;
+  float: right;
+  width: 50%;
 }
