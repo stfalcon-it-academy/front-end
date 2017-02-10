@@ -1,0 +1,188 @@
+@font-face {
+  font-family: Montserrat-Regular;
+  src: url("Montserrat-Regular.otf");
+}
+.header{
+    height: 35px;
+    background: #2b2b2b;
+    position: relative;
+    width: 100%;
+}
+
+.verh{
+  width: 60.9375%;
+  height: 35px;
+  margin: auto;
+}
+.numberphone{
+    display: inline-block;
+    font-family: "Montserrat Light";
+    color: #7f7f7f;
+    font-size: 14px;
+    float: left;
+    padding-top: 11px;
+}
+.login, .register, .loginregister{
+    display: inline-block;
+    font-family: Montserrat-Regular;
+    color: #666666;
+    font-size: 14px;
+}
+.or{
+    display: inline-block;
+    font-size: 12px;
+    color: #3b3b3b;
+    vertical-align: middle;
+
+}
+.loginregister{
+  float: right;
+  line-height: 30px;
+}
+.head{
+    background: #232323;
+    height: 167px;
+    width: 100%;
+}
+.menu ul{
+    display: inline-block;
+    font-family: Montserrat-Regular;
+    float: left;
+    position: absolute;
+}
+.bag{
+  display: inline-block;
+  float: right;
+  position: absolute;
+  bottom: 29px;
+  right: 0;
+}
+ul{
+    padding: 0;
+}
+li{
+    display: inline;
+    color: #ffffff;
+    font-size:16px;
+
+}
+li:first-child{
+    color: #be926f;
+
+}
+.search{
+    font-family:"Montserrat Light";
+    font-size: 13px;
+    color: #666666;
+    height: 93%;
+    width: 90%;
+    padding-left: 25px;
+    background: #232323;
+    border: 0px;
+}
+.input{
+    position: absolute;
+    right: 0;
+    display:inline-block;
+    float: right;
+    height: 45px;
+    width: 250px;
+    border: 3px solid #323232;
+    margin-top: 32px;
+}
+.image{
+    position: relative;
+    height: 100px;
+    width: 60.9375%;
+    margin: auto;
+}
+.logo{
+    position: absolute;
+    float: left;
+    margin-top: 32px;
+}
+.linza {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+
+
+}
+.info{
+    width: 60.9375%;
+    height: 118px;
+    background: #e7e7e7;
+    position:relative;
+    top: 30px;
+    margin: auto;
+
+}
+.contactus{
+    font-family: Montserrat-Regular;
+    color: #232323;
+    font-size: 30px;
+    position: relative;
+    left: 27px;
+    top: 50px;
+
+}
+.homecontact{
+    font-family: Montserrat-Regular;
+    font-size: 14px;
+    color: #666666;
+    position: absolute;
+    top: 55px;
+    right: 17px;
+}
+.home{
+    color: #999999;
+}
+.contact{
+  width: 100vh;
+  margin: auto;
+}
+
+.clear{
+  clear: both;
+}
+.menu{
+  width: 60.9375%;
+  height: 67px;
+  margin: auto;
+  position: relative;
+}
+li:nth-child(2){
+  padding-left:48px;
+}
+li:nth-child(3){
+  padding-left: 55px;
+}
+li:nth-child(4){
+  padding-left: 48px;
+}
+li:nth-child(5){
+  padding-left: 58px;
+}
+li:nth-child(6){
+  padding-left: 44px;
+}
+.logpas{
+  color: #666666;
+  font-size: 14px;
+  text-decoration: none;
+}
+.logpas ~ span{
+  font-size: 14px;
+  color: #3b3b3b;
+}
+
+.nav {
+  color: #be926f;
+  text-decoration: none;
+  font-size: 16px;
+}
+.nav1 {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 16px;
+}
