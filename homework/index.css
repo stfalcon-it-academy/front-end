@@ -8,19 +8,22 @@
     position: relative;
     width: 100%;
 }
-
+body{
+  min-width: 61%;
+}
 .verh{
-  width: 60.9375%;
+  width: 61%;;
   height: 35px;
   margin: auto;
 }
-.numberphone{
+.numberphone a{
     display: inline-block;
     font-family: "Montserrat Light";
     color: #7f7f7f;
     font-size: 14px;
     float: left;
     padding-top: 11px;
+    text-decoration: none;
 }
 .login, .register, .loginregister{
     display: inline-block;
@@ -50,18 +53,37 @@
     float: left;
     position: absolute;
 }
-.bag{
-  display: inline-block;
+.bag1 {
+  width: 17px;
+  height: 22px;
+  background: url("image/bag1.jpg") center center no-repeat;
   float: right;
-  position: absolute;
-  bottom: 29px;
-  right: 0;
+  padding: 10px;
+  background-origin: ;
+  text-decoration: none;
+
 }
+.kilkisttovariv{
+  display: inline-block;
+  width: 18px;
+  height: 18px;
+  color: #232323;
+  font-size: 12px;
+  background-color: #be926f;
+  border-radius: 18px;
+  text-align: center;
+  line-height: 18px;
+  position: relative;
+  top: -9px;
+  right: -9px;
+
+}
+
 ul{
     padding: 0;
 }
 li{
-    display: inline;
+    display: inline-block;
     color: #ffffff;
     font-size:16px;
 
@@ -93,7 +115,7 @@ li:first-child{
 .image{
     position: relative;
     height: 100px;
-    width: 60.9375%;
+    width: 61%;
     margin: auto;
 }
 .logo{
@@ -101,15 +123,9 @@ li:first-child{
     float: left;
     margin-top: 32px;
 }
-.linza {
-    position: absolute;
-    top: 15px;
-    right: 15px;
 
-
-}
 .info{
-    width: 60.9375%;
+    width: 61%;
     height: 118px;
     background: #e7e7e7;
     position:relative;
@@ -146,26 +162,12 @@ li:first-child{
   clear: both;
 }
 .menu{
-  width: 60.9375%;
+  width: 61%;
   height: 67px;
   margin: auto;
   position: relative;
 }
-li:nth-child(2){
-  padding-left:48px;
-}
-li:nth-child(3){
-  padding-left: 55px;
-}
-li:nth-child(4){
-  padding-left: 48px;
-}
-li:nth-child(5){
-  padding-left: 58px;
-}
-li:nth-child(6){
-  padding-left: 44px;
-}
+
 .logpas{
   color: #666666;
   font-size: 14px;
@@ -180,9 +182,39 @@ li:nth-child(6){
   color: #be926f;
   text-decoration: none;
   font-size: 16px;
+  padding: 0 25px 0 25px;
+  margin-left: -25px;
+
 }
 .nav1 {
+  padding-left: 50px;
   color: #ffffff;
   text-decoration: none;
   font-size: 16px;
+  padding: 0 25px 0 25px;
+
 }
+
+form{
+  position: relative;
+  float: right;
+  width: 250px;
+  height: 35px;
+  top: 35px;
+  border: solid #323232 1px;
+}
+button{
+  display: block;
+  width: 18px;
+  height: 18px;
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  border: 0;
+  padding: 0;
+  cursor: pointer;
+}
+a:hover {
+  text-decoration: underline;
+}
+
