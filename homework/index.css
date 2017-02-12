@@ -1,0 +1,171 @@
+html{
+  font-family: 'Montserrat', sans-serif;
+  background: #f7f7f7;
+}
+
+body {
+  min-width: 1170px; /* Задали статичну мінімальни ширину сайту*/
+}
+
+header{
+  background: #232323;
+  margin-bottom: 30px;
+}
+
+.montserrat-light {
+  font-family: 'Montserrat Light', sans-serif;
+}
+
+.montserrat {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.clearfix::after { /* Перечитати як працює ця штука!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.container{ /* Клас, контейнер який буде примінятись до усього сайту (до контента)*/
+  margin: 0 auto;
+  width: 1170px;
+}
+
+.header-top { /* Перша лінія*/
+  background-color: #2b2b2b;
+  font-size: 14px;
+  margin-bottom: 30px;
+}
+
+.header-phone {
+  float: left;
+}
+.header-phone a{
+  text-decoration: none ;
+  color: #7f7f7f;
+}
+
+.header-user .sep{
+  margin: 0 5px;
+}
+
+.header-user{
+  float: right;
+  color: #3b3b3b;
+}
+.header-user a{
+  color: #666666;
+  text-decoration: none;
+}
+.header-user a:hover {
+  text-decoration: underline;
+}
+
+.header-phone, .header-user { /*задали висоту + стояла вистоа лінії 1.1ем */
+  padding: 9px 0;
+}
+
+.header-logo {
+  float: left;
+}
+
+.header-serch{
+  float: right;
+  border: 1px #323232 solid;
+
+}
+
+.header-serch button{
+  width: 55px;
+  height: 44px;
+  display: inline-block; /* Перечитати як працює ця штука!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+  vertical-align: top;   /* Перечитати як працює ця штука!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+  background: url(img/icon-serch.png) center center no-repeat;
+  border: none;
+
+}
+
+.header-serch input{
+  height: 44px;
+  display: inline-block; /* Перечитати як працює ця штука!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+  vertical-align: top;   /* Перечитати як працює ця штука!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+  background: none ;
+  border: none;
+  font-size: 13px;
+  width: 225px;
+  padding-left: 25px;
+  color: #ffffff;
+}
+
+.header-nav{
+  font-size: 1em;
+}
+
+.header-nav ul{
+  list-style: none;
+  padding: 0;
+  margin-left: -10px;
+}
+
+.header-nav li+li{
+  margin-left: 30px;
+}
+
+.header-nav li{
+  display: inline-block;
+}
+
+.header-nav a{
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+  color: white;
+}
+
+.header-nav a:hover, .header-nav .current a {
+  color: #be926f;
+}
+
+.header-card  {
+  width: 17px;
+  height: 22px;
+  background: url(img/icon-card.png) center center no-repeat;
+  float: right;
+  padding: 10px;
+}
+
+.wrapper {
+  width: 1170px;
+  margin: 0 auto;
+}
+.wrapp-top {
+  background: #e7e7e7;
+  margin-bottom: 30px;;
+}
+.wrapper-info {
+  float: left;
+  font-size: 30px;
+  margin: 47px 25px;
+  color: #232323;
+}
+
+.wrapper-loction {
+  float: right;
+  padding: 56px 13px;
+  font-size: 14px;
+  color: #999999;
+}
+
+.wrapper-loction a {
+  text-decoration: none;
+  color: #999999;
+}
+
+.wrapper-loction a:hover {
+  color: #3b3b3b;
+}
+
+.wrapper-map {
+  background: none;
+
+}
