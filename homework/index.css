@@ -1,6 +1,6 @@
 html{
   font-family: 'Montserrat', sans-serif;
-  line-height: 1.1em;
+  background: #f7f7f7;
 }
 
 body {
@@ -9,6 +9,7 @@ body {
 
 header{
   background: #232323;
+  margin-bottom: 30px;
 }
 
 .montserrat-light {
@@ -131,4 +132,40 @@ header{
   background: url(img/icon-card.png) center center no-repeat;
   float: right;
   padding: 10px;
+}
+
+.wrapper {
+  width: 1170px;
+  margin: 0 auto;
+}
+.wrapp-top {
+  background: #e7e7e7;
+  margin-bottom: 30px;;
+}
+.wrapper-info {
+  float: left;
+  font-size: 30px;
+  margin: 47px 25px;
+  color: #232323;
+}
+
+.wrapper-loction {
+  float: right;
+  padding: 56px 13px;
+  font-size: 14px;
+  color: #999999;
+}
+
+.wrapper-loction a {
+  text-decoration: none;
+  color: #999999;
+}
+
+.wrapper-loction a:hover {
+  color: #3b3b3b;
+}
+
+.wrapper-map {
+  background: none;
+
 }
