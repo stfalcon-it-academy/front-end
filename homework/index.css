@@ -11,6 +11,7 @@ header{
   background: #232323;
 }
 
+
 .clearfix::after { /* Перечитати як працює ця штука!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
   content: '';
   display: table;
@@ -61,6 +62,7 @@ header{
 
 .header-serch{
   float: right;
+  border: 1px #323232 solid;
 }
 
 .header-serch button{
@@ -68,10 +70,15 @@ header{
   height: 44px;
   display: inline-block; /* Перечитати як працює ця штука!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
   vertical-align: top;   /* Перечитати як працює ця штука!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+  background: url(img/icon-serch.png) center center no-repeat;
+  border: none;
 }
 
 .header-serch input{
   height: 44px;
   display: inline-block; /* Перечитати як працює ця штука!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
   vertical-align: top;   /* Перечитати як працює ця штука!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+  background: none ;
+  border: none;
+  font-size: 13px;
 }
