@@ -124,3 +124,11 @@ header{
 .header-nav a:hover, .header-nav .current a {
   color: #be926f;
 }
+
+.header-card  {
+  width: 17px;
+  height: 22px;
+  background: url(img/icon-card.png) center center no-repeat;
+  float: right;
+  padding: 10px;
+}
