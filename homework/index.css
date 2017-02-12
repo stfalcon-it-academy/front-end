@@ -11,6 +11,13 @@ header{
   background: #232323;
 }
 
+.montserrat-light {
+  font-family: 'Montserrat Light', sans-serif;
+}
+
+.montserrat {
+  font-family: 'Montserrat', sans-serif;
+}
 
 .clearfix::after { /* Перечитати як працює ця штука!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
   content: '';
@@ -26,6 +33,7 @@ header{
 .header-top { /* Перша лінія*/
   background-color: #2b2b2b;
   font-size: 14px;
+  margin-bottom: 30px;
 }
 
 .header-phone {
@@ -63,6 +71,7 @@ header{
 .header-serch{
   float: right;
   border: 1px #323232 solid;
+
 }
 
 .header-serch button{
@@ -72,6 +81,7 @@ header{
   vertical-align: top;   /* Перечитати як працює ця штука!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
   background: url(img/icon-serch.png) center center no-repeat;
   border: none;
+
 }
 
 .header-serch input{
@@ -81,4 +91,36 @@ header{
   background: none ;
   border: none;
   font-size: 13px;
+  width: 225px;
+  padding-left: 25px;
+  color: #ffffff;
+}
+
+.header-nav{
+  font-size: 1em;
+}
+
+.header-nav ul{
+  list-style: none;
+  padding: 0;
+  margin-left: -10px;
+}
+
+.header-nav li+li{
+  margin-left: 30px;
+}
+
+.header-nav li{
+  display: inline-block;
+}
+
+.header-nav a{
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+  color: white;
+}
+
+.header-nav a:hover, .header-nav .current a {
+  color: #be926f;
 }
