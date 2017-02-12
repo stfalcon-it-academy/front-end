@@ -11,6 +11,12 @@ header{
   background: #232323;
 }
 
+.clearfix::after { /* Перечитати як працює ця штука!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+  content: '';
+  display: table;
+  clear: both;
+}
+
 .container{ /* Клас, контейнер який буде примінятись до усього сайту (до контента)*/
   margin: 0 auto;
   width: 1170px;
@@ -49,16 +55,23 @@ header{
   padding: 9px 0;
 }
 
-.clearfix::after { /* Перечитати як працює ця штука!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
-  content: '';
-  display: table;
-  clear: both;
-}
-
 .header-logo {
   float: left;
 }
 
 .header-serch{
   float: right;
+}
+
+.header-serch button{
+  width: 55px;
+  height: 44px;
+  display: inline-block; /* Перечитати як працює ця штука!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+  vertical-align: top;   /* Перечитати як працює ця штука!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+}
+
+.header-serch input{
+  height: 44px;
+  display: inline-block; /* Перечитати як працює ця штука!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+  vertical-align: top;   /* Перечитати як працює ця штука!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
 }
