@@ -1,31 +1,52 @@
 html{
   font-family: 'Montserrat', sans-serif;
+  line-height: 1.1em;
 }
 
 body {
-  min-width: 1170px;
+  min-width: 1170px; /* Задали статичну мінімальни ширину сайту*/
 }
 
-.container{
+.container{ /* Клас, контейнер який буде примінятись до усього сайту (до контента)*/
   margin: 0 auto;
   width: 1170px;
 }
 
-.header-top {
+.header-top { /* Перша лінія*/
   background-color: #2b2b2b;
-  color: silver;
+  font-size: 14px;
 }
 
 .header-phone {
   float: left;
 }
+.header-phone a{
+  text-decoration: none ;
+  color: #7f7f7f;
+}
+
+.header-user .sep{
+  margin: 0 5px;
+}
 
 .header-user{
   float: right;
+  color: #3b3b3b;
+}
+.header-user a{
+  color: #666666;
+  text-decoration: none;
+}
+.header-user a:hover {
+  text-decoration: underline;
 }
 
-.clearfix::after {
+.header-phone, .header-user { /*задали висоту + стояла вистоа лінії 1.1ем */
+  padding: 9px 0;
+}
+
+.clearfix::after { /* Перечитати як працює ця штука!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
   content: '';
-  display: none;
+  display: table;
   clear: both;
 }
