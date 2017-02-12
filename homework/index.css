@@ -7,6 +7,10 @@ body {
   min-width: 1170px; /* Задали статичну мінімальни ширину сайту*/
 }
 
+header{
+  background: #232323;
+}
+
 .container{ /* Клас, контейнер який буде примінятись до усього сайту (до контента)*/
   margin: 0 auto;
   width: 1170px;
@@ -49,4 +53,12 @@ body {
   content: '';
   display: table;
   clear: both;
+}
+
+.header-logo {
+  float: left;
+}
+
+.header-serch{
+  float: right;
 }
