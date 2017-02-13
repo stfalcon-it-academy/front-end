@@ -10,7 +10,9 @@ h1 {
 h1{
   font-size: 24px;
 }
-
+ul { color: #6B0982;
+}
+}
 .details{
   padding: 0;
 }
