@@ -1,0 +1,35 @@
+html {
+  font-family: 'Montserrat Light', sans-serif;
+  font-size: 0.9375em;
+  line-height: 1.73333;
+}
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.6em;
+  line-height: 1.08333;
+  font-weight: 400;
+  color: #000000;
+}
+p {
+  text-align: justify;
+  color: #333333;
+}
+.list-1 {
+  padding: 0;
+  color: #a8a8a8;
+}
+.list-1 li {
+    display: inline;
+}
+.list-1 li+li:before {
+content: '|';
+  margin: 0 21px;
+}
+
+a {
+  color: #a8a8a8;
+  text-decoration: none; /* Убираем подчеркивание у ссылок */
+}
+a:hover {
+  color: #666666; /* Цвет ссылки при наведении на нее курсора мыши */
+}
