@@ -3,43 +3,48 @@
 <head>
     <meta charset="UTF-8">
     <title>My new site</title>
-  <link rel="stylesheet" href="index.css">
   <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+  <link rel="stylesheet" href="normalize.css">
+  <link rel="stylesheet" href="index.css">
 </head>
 <body>
-<div class="wrapper">
-  <div class="some_class">
-    <code class="phone">(+123) 456 789</code>
-  <span class="login">
-    <a href="#">Log in</a>
-    <code id="codee">or</code>
-    <a href="#">Register</a>
-  </span>
+<header class="page-header">
+  <div class="header-top">
+   <div class="container clearfix">
+     <div class="phone">
+       <a href="tel:+123456789">
+         (+123) 456 789
+       </a>
+     </div>
+     <div class="user">
+     <a href="#">Log in</a> <span class="sep">or</span> <a href="#">Register</a>
+     </div>
+   </div>
   </div>
-  <div class="some_class2">
-    <div class="logo">
-      <a href="#"><img src="images/logo.jpg" alt=""></a>
-    </div>
-    <div class="some_form">
-      <form action="#" class="register">
-        <input title="" type="text" id="input" name="Search" value="Search Products..." >
-      </form>
-      <h2></h2>
-      </div>
-    <div class="menu">
-      <ol>
-        <li><a href="#" id="home">Home</a></li>
-        <li><a href="#" class="white_text">Living room</a></li>
-        <li><a href="#" class="white_text">Office</a></li>
-        <li><a href="#" class="white_text">Bedroom</a></li>
-        <li><a href="#" class="white_text">Blog</a></li>
-        <li><a href="#" class="white_text">Contact</a></li>
-        <li><a href="#" id="icon"><img src="images/icon.gif" alt=""></a></li>
-      </ol>
-      <div class="icon">
-    </div>
-    </div>
+  <div class="container clearfix">
+    <a href="#" class="header-logo">
+      <img src="images/logo.jpg" alt="" width="166" height="49">
+    </a>
+    <form action="#" class="header-search">
+      <input type="search" placeholder="Search Products...">
+      <button></button>
+    </form>
   </div>
-</div>
+  <div class="container clearfix">
+    <a href="#" class="header-cart">
+      <span class="cart-count">2</span>
+    </a>
+<nav class="header-nav">
+  <ul>
+    <li class="current"><a href="#">Home</a></li>
+    <li><a href="#">Living room</a></li>
+    <li><a href="#">Office</a></li>
+    <li><a href="#">Bedroom</a></li>
+    <li><a href="#">Blog</a></li>
+    <li><a href="#">Contact</a></li>
+  </ul>
+</nav>
+  </div>
+</header>
 </body>
 </html>
