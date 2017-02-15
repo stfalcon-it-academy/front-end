@@ -86,6 +86,9 @@ a {
   width: 1175px;
   margin: auto;
 }
+.header-menu{
+  margin-top: 30px;
+}
 .header-menu li{
   display: inline-block;
   font-family: 'Montserrat', sans-serif;
@@ -111,6 +114,7 @@ color: #be926f;
 }
 .header-menu ul {
   padding: 0px;
+  margin: 0px;
 }
 .ref-color-1 {
  color: #be926f;
@@ -118,3 +122,18 @@ color: #be926f;
 .ref-color-2 {
   color: #ffffff;
 }
+.basket {
+display: inline-block;
+  float: right;
+  right: 16px;
+  bottom: 18px;
+  position: relative;
+}
+.ball{
+  display: inline-block;
+  float: right;
+  right: -10px;
+  bottom: 25px;
+  position: relative;
+}
+
