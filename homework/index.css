@@ -1,0 +1,139 @@
+body{
+  font-family: 'Montserrat Light', sans-serif;
+  width: 100%;
+}
+.header {
+  height: 202px;
+  width: 100%;
+  background-color: #232323;
+  position: relative;
+}
+.header-top {
+  width: 1175px;
+  font-size: 14px;
+  position: relative;
+  margin: auto;
+}
+.header-main {
+  width: 100%;
+  height: 35px;
+  background-color: #2b2b2b;
+}
+.number  {
+  display: inline-block;
+  padding-top: 11px;
+}
+.autorize {
+  display: inline-block;
+  float: right;
+  padding-top: 11px;
+}
+#first-color {
+  color: #7f7f7f;
+}
+#second-color {
+  color: #666666;
+}
+.header .header-top span {
+  color: #3b3b3b;
+  font-size: 12px;
+}
+a {
+  text-decoration: none;
+}
+.header-logo {
+  margin-top: 30px;
+  display: inline-block;
+  position: relative;
+  width: 100%;
+}
+.search{
+  width: 275px;
+  height: 46px;
+  float: right;
+  position: relative;
+}
+.header-logo-position {
+  width: 1175px;
+  margin: auto;
+}
+.search input {
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  font-size: 13px;
+  background-color: #232323;
+  border: 1px solid #323232;
+}
+.search button{
+  width: 45px;
+  height: 45px;
+  padding: 0px;
+  border: 0px;
+  background-color: #232323;
+  display: inline;
+  position: absolute;
+  right: 0%;
+  top: 5%
+}
+.search form {
+  width: 275px;
+  height: 46px;
+  position: relative;
+}
+.header-menu-size {
+  width: 1175px;
+  margin: auto;
+}
+.header-menu{
+  margin-top: 30px;
+}
+.header-menu li{
+  display: inline-block;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+}
+.header-menu a:nth-child(1) {
+color: #be926f;
+}
+.header-menu li:nth-child(2){
+  padding-left: 48px;
+}
+.header-menu li:nth-child(3){
+  padding-left: 54px;
+}
+.header-menu li:nth-child(4){
+  padding-left: 48px;
+}
+.header-menu li:nth-child(5){
+  padding-left: 57px;
+}
+.header-menu li:nth-child(6){
+  padding-left: 45px;
+}
+.header-menu ul {
+  padding: 0px;
+  margin: 0px;
+}
+.ref-color-1 {
+ color: #be926f;
+}
+.ref-color-2 {
+  color: #ffffff;
+}
+.basket {
+display: inline-block;
+  float: right;
+  right: 16px;
+  bottom: 18px;
+  position: relative;
+}
+.ball{
+  display: inline-block;
+  float: right;
+  right: -10px;
+  bottom: 25px;
+  position: relative;
+}
+
