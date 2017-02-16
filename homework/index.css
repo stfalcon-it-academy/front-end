@@ -117,9 +117,9 @@ body{
   right:-10px;
 }
 .contact-us{
-  display: inline-block;
-  width:1170px;
-  margin: 20px 0 0 184px;
+  display: block;
+  width: 1170px;
+  margin: 20px auto 0;
   text-align: center;
   background-color: #e7e7e7;
 }
@@ -148,6 +148,7 @@ body{
 }
 .maps{
   display: block;
-  margin-top:10px;
+  /*margin-top:10px;*/
+  margin: 10px auto 0;
   text-align: center;
 }
