@@ -1,0 +1,255 @@
+html{
+  font-family: 'Montserrat', sans-serif;
+  background: #f7f7f7;
+}
+
+body {
+  min-width: 320px;
+}
+
+header{
+  background: #232323;
+  margin-bottom: 30px;
+}
+
+.montserrat-light {
+  font-family: 'Montserrat Light', sans-serif;
+}
+
+.montserrat {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.clearfix::after { /* Перечитати як працює ця штука!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.container{
+  margin: 0 auto;
+  max-width: 1170px;
+  padding: 0 15px;
+}
+
+.header-top { /* Перша лінія*/
+  background-color: #2b2b2b;
+  font-size: 14px;
+  margin-bottom: 30px;
+}
+
+.header-phone {
+  float: left;
+}
+.header-phone a{
+  text-decoration: none ;
+  color: #7f7f7f;
+}
+
+.header-user .sep{
+  margin: 0 5px;
+}
+
+.header-user{
+  float: right;
+  color: #3b3b3b;
+}
+.header-user a{
+  color: #666666;
+  text-decoration: none;
+}
+.header-user a:hover {
+  text-decoration: underline;
+}
+
+.header-phone, .header-user {
+  padding: 9px 0;
+}
+
+/*@media (min-width: 500px) {*/
+  /*.header-logo {*/
+    /*float: left;*/
+  /*}*/
+
+  /*.header-serch{*/
+    /*float: right;*/
+    /*border: 1px #323232 solid;*/
+  /*}*/
+/*}*/
+
+
+.header-logo {
+  float: left;
+}
+
+@media (max-width: 650px) {
+  .header-logo {
+    float: none;
+    text-align: center;
+    display: block;
+  }
+
+}
+
+.header-serch{
+  float: right;
+  border: 1px #323232 solid;
+}
+
+.header-serch button{
+  width: 55px;
+  height: 44px;
+  display: inline-block;
+  vertical-align: top;
+  background: url(img/icon-serch.png) center center no-repeat;
+  border: none;
+
+}
+
+.header-serch input{
+  height: 44px;
+  display: inline-block;
+  vertical-align: top;
+  background: none ;
+  border: none;
+  font-size: 13px;
+  width: 225px;
+  padding-left: 25px;
+  color: #ffffff;
+}
+
+@media (max-width: 650px) {
+  .header-logo {
+    float: none;
+  }
+
+  .header-serch {
+    float: none;
+    font-size: 0;
+  }
+
+  .header-serch input {
+    width: calc(100% - 55px);
+  }
+}
+
+/*.header-serch button {*/     /*Кнопку нада перенести над інпутом*/
+/*float: right;*/
+/*margin-left: -55px;*/
+/*z-index: 2;*/
+/*position: relative;*/
+/*}*/
+
+.header-nav{
+  font-size: 1em;
+}
+
+.header-nav ul{
+  list-style: none;
+  padding: 0;
+  margin-left: -10px;
+}
+@media (min-width: 650px) {
+  .header-nav li + li {
+    margin-left: 30px;
+  }
+
+  .header-nav li {
+    display: inline-block;
+  }
+}
+
+/*@media (max-width: 650px) {*/
+/*.header-nav li {*/
+/*display: block;*/
+/*}*/
+/*.header-nav li+li{*/
+/*margin: 0;*/
+/*}*/
+/*}*/
+
+.header-nav a{
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+  color: white;
+}
+
+.header-nav a:hover, .header-nav .current a {
+  color: #be926f;
+}
+
+.header-card  {
+  width: 17px;
+  height: 22px;
+  background: url(img/icon-card.png) center center no-repeat;
+  float: right;
+  padding: 10px;
+}
+
+.wrapper {
+  margin: 0 auto;
+  padding: -5px;
+}
+.wrapp-top {
+  background: #e7e7e7;
+  margin-bottom: 30px;;
+}
+
+@media (min-width: 650px) {
+  .wrapper-info {
+    float: left;
+    margin: 47px 25px;
+  }
+  .wrapper-loction {
+    float: right;
+    margin: 56px 13px;
+  }
+}
+
+@media (max-width: 650px) {
+  .wrapper-info {
+    padding: 12px 10px 2px;
+  }
+  .wrapper-loction {
+    padding: 12px 10px;
+  }
+}
+
+.wrapper-info {
+  /*float: left;*/
+  font-size: 30px;
+  /*padding: 47px 25px;*/
+  color: #232323;
+}
+
+.wrapper-loction {
+  /*float: right;*/
+  /*padding: 56px 13px;*/
+  font-size: 14px;
+  color: #999999;
+}
+
+.wrapper-loction a {
+  text-decoration: none;
+  color: #999999;
+}
+
+.wrapper-loction a:hover, .wrapper-loction a.current  {
+  color: #3b3b3b;
+}
+
+.map-responsive{
+  overflow:hidden;
+  padding-bottom:56.25%;
+  position:relative;
+  height:0;
+}
+
+.map-responsive iframe{
+  left:0;
+  top:0;
+  height:100%;
+  width:100%;
+  position:absolute;
+}
