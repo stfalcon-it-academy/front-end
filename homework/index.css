@@ -1,0 +1,155 @@
+html {
+  font-family: 'Montserrat', sans-serif;
+  background: #f7f7f7; /* Цвет фона */
+}
+body {
+  min-width: 1170px;
+}
+.center{
+  width: 1170px; /* Ширина элемента в пикселах */
+  margin: auto; /* Выравниваем по центру */
+}
+.one-class {
+  background-color: #232323;
+  font-size: 0.875em;
+  padding: 0 15px;
+}
+.main-contact {
+  padding: 50px 25px;
+  background-color: #e7e7e7;
+  margin: 30px 0;
+  font-size: 30px;
+  text-transform: uppercase;
+}
+.header-authorization {
+  margin: auto 0;
+}
+.header-content {
+  padding: 30px 0 0 0;
+}
+.header-horisontal-menu {
+  overflow: hidden;
+  list-style-type: none;
+}
+.header-horisontal-menu ul {
+  display: block;
+  list-style-type: none;
+  margin: 0 0;
+}
+.header-horisontal-menu a {
+  display: block;
+  text-decoration: none;
+  text-align: left;
+  color: #ffffff;
+  padding: 30px;
+}
+.header-horisontal-menu a:hover{
+  color: #be926f;
+}
+.header-horisontal-menu li {
+  float: left;
+}
+.clear {
+  clear: both;
+}
+.header-authorization a {
+  text-decoration: none;
+  text-align: right;
+  color: #5c5c5c;
+}
+.header-authorization .telephone {
+  text-decoration: none;
+  text-align: left;
+  color: #5c5c5c;
+}
+.telephone {
+  float: left; /* Обтекание справа */
+  width: 50%; /* Ширина текстового блока */
+  margin: 0px;
+  padding: 10px 0;
+}
+.log-in {
+  text-align: right; /* Выравнивание по правому краю */
+  float: right; /* Обтекание справа */
+  width: 50%; /* Ширина текстового блока */
+  margin: 0px;
+  padding: 10px 0;
+}
+.log-in a:hover{
+  text-decoration: underline;
+}
+.log-in span{
+  display: inline-block;
+  padding: 0 5px;
+}
+.logo {
+  display: block;
+  float: left;
+  width: 50%;
+  margin: 0;
+}
+form {
+  float: right;
+  width: 50%;
+}
+.header-search {
+  display: block;
+  float: right;
+  width: 280px;
+  height: 40px;
+  border: 1px solid #5c5c5c;
+  min-height: 40px; /* Минимальная высота */
+  background: #232323
+}
+input[type="search"] {
+  border: none; /* Убираем рамку */
+  width: 240px; /* Ширина поля */
+  height: 40px;
+  vertical-align: middle; /* Выравнивание по середине */
+  background: #232323;
+  padding-left: 15px;
+}
+input[type="submit"] {
+  width: 34px; /* Ширина кнопки */
+  border: none; /* Убираем рамку */
+  background: #232323 url(images/search.png) no-repeat 50% 50%; /* Параметры фона */
+  vertical-align: middle;
+}
+.header-bag{
+  height: 22px;
+  width: 17px;
+  background: url("images/bag.png") 0 0 no-repeat;
+  padding: 25px 10px;
+  float: right;
+  background-origin: content-box;
+  text-decoration: none;
+}
+.order-count{
+  width: 18px;
+  height: 18px;
+  color: #232323;
+  font-size: 12px;
+  background-color: #be926f;
+  border-radius: 50%;
+  display: inline-block;
+  text-align: center;
+  line-height: 18px;
+  position: relative;
+  top: -5px;
+  right: -8px;
+}
+.main-contact a {
+  font-size: 14px;
+  text-decoration: none;
+  color: #5c5c5c;
+}
+.main-contact a:hover{
+  text-decoration: underline;
+  color: #999999;
+}
+.contact-us{
+  float: left;
+}
+.home-contact {
+  float: right;
+}
