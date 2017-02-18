@@ -4,7 +4,7 @@ html{
 }
 
 body {
-  min-width: 1170px;
+  min-width: 320px;
 }
 
 header{
@@ -28,7 +28,8 @@ header{
 
 .container{ /* Клас, контейнер який буде примінятись до усього сайту (до контента)*/
   margin: 0 auto;
-  width: 1170px;
+  max-width: 1170px;
+  padding: 0 15px;
 }
 
 .header-top { /* Перша лінія*/
@@ -65,14 +66,19 @@ header{
   padding: 9px 0;
 }
 
-.header-logo {
-  float: left;
+@media (min-width: 500px) {
+  .header-logo {
+    float: left;
+  }
+
+  .header-serch{
+    float: right;
+    border: 1px #323232 solid;
+  }
 }
 
 .header-serch{
-  float: right;
   border: 1px #323232 solid;
-
 }
 
 .header-serch button{
@@ -106,14 +112,24 @@ header{
   padding: 0;
   margin-left: -10px;
 }
+@media (min-width: 650px) {
+  .header-nav li + li {
+    margin-left: 30px;
+  }
 
-.header-nav li+li{
-  margin-left: 30px;
+  .header-nav li {
+    display: inline-block;
+  }
 }
 
-.header-nav li{
-  display: inline-block;
-}
+/*@media (max-width: 650px) {*/
+/*.header-nav li {*/
+/*display: block;*/
+/*}*/
+/*.header-nav li+li{*/
+/*margin: 0;*/
+/*}*/
+/*}*/
 
 .header-nav a{
   display: block;
@@ -135,24 +151,44 @@ header{
 }
 
 .wrapper {
-  width: 1170px;
   margin: 0 auto;
+  padding: -5px;
 }
 .wrapp-top {
   background: #e7e7e7;
   margin-bottom: 30px;;
 }
 
+@media (min-width: 600px) {
+  .wrapper-info {
+    float: left;
+    margin: 47px 25px;
+  }
+  .wrapper-loction {
+    float: right;
+    margin: 56px 13px;
+  }
+}
+
+@media (max-width: 600px) {
+  .wrapper-info {
+    padding: 12px 10px 2px;
+  }
+  .wrapper-loction {
+    padding: 12px 10px;
+  }
+}
+
 .wrapper-info {
-  float: left;
+  /*float: left;*/
   font-size: 30px;
-  margin: 47px 25px;
+  /*padding: 47px 25px;*/
   color: #232323;
 }
 
 .wrapper-loction {
-  float: right;
-  padding: 56px 13px;
+  /*float: right;*/
+  /*padding: 56px 13px;*/
   font-size: 14px;
   color: #999999;
 }
@@ -166,7 +202,17 @@ header{
   color: #3b3b3b;
 }
 
-.wrapper-map {
-  background: none;
+/*.wrapper-map {*/
+  /*background: none;*/
+  /*min-width: 320px;*/
 
-}
+/*.map_container {*/     /*адаптив дял карти*/
+  /*position: relative;*/
+  /*padding-top: 50%;*/
+/*}*/
+/*.map {*/
+  /*position: absolute;*/
+  /*width: 100%;*/
+  /*height: 100%;*/
+  /*top: 0;*/
+/*}*/
