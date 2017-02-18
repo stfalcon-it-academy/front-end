@@ -26,7 +26,7 @@ header{
   clear: both;
 }
 
-.container{ /* Клас, контейнер який буде примінятись до усього сайту (до контента)*/
+.container{
   margin: 0 auto;
   max-width: 1170px;
   padding: 0 15px;
@@ -62,30 +62,36 @@ header{
   text-decoration: underline;
 }
 
-.header-phone, .header-user { /*задали висоту + стояла вистоа лінії 1.1ем */
+.header-phone, .header-user {
   padding: 9px 0;
 }
 
-@media (min-width: 500px) {
-  .header-logo {
-    float: left;
-  }
+/*@media (min-width: 500px) {*/
+  /*.header-logo {*/
+    /*float: left;*/
+  /*}*/
 
-  .header-serch{
-    float: right;
-    border: 1px #323232 solid;
-  }
+  /*.header-serch{*/
+    /*float: right;*/
+    /*border: 1px #323232 solid;*/
+  /*}*/
+/*}*/
+
+
+.header-logo {
+  float: left;
 }
 
 .header-serch{
+  float: right;
   border: 1px #323232 solid;
 }
 
 .header-serch button{
   width: 55px;
   height: 44px;
-  display: inline-block; /* Перечитати як працює ця штука!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
-  vertical-align: top;   /* Перечитати як працює ця штука!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+  display: inline-block;
+  vertical-align: top;
   background: url(img/icon-serch.png) center center no-repeat;
   border: none;
 
@@ -93,8 +99,8 @@ header{
 
 .header-serch input{
   height: 44px;
-  display: inline-block; /* Перечитати як працює ця штука!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
-  vertical-align: top;   /* Перечитати як працює ця штука!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+  display: inline-block;
+  vertical-align: top;
   background: none ;
   border: none;
   font-size: 13px;
@@ -102,6 +108,28 @@ header{
   padding-left: 25px;
   color: #ffffff;
 }
+
+@media (max-width: 650px) {
+  .header-logo {
+    float: none;
+  }
+
+  .header-serch {
+    float: none;
+    font-size: 0;
+  }
+
+  .header-serch input {
+    width: calc(100% - 55px);
+  }
+}
+
+/*.header-serch button {*/     /*Кнопку нада перенести над інпутом*/
+/*float: right;*/
+/*margin-left: -55px;*/
+/*z-index: 2;*/
+/*position: relative;*/
+/*}*/
 
 .header-nav{
   font-size: 1em;
@@ -159,7 +187,7 @@ header{
   margin-bottom: 30px;;
 }
 
-@media (min-width: 600px) {
+@media (min-width: 650px) {
   .wrapper-info {
     float: left;
     margin: 47px 25px;
@@ -170,7 +198,7 @@ header{
   }
 }
 
-@media (max-width: 600px) {
+@media (max-width: 650px) {
   .wrapper-info {
     padding: 12px 10px 2px;
   }
@@ -206,7 +234,10 @@ header{
   /*background: none;*/
   /*min-width: 320px;*/
 
-/*.map_container {*/     /*адаптив дял карти*/
+
+/*                                           адаптив дял карти                                          */
+
+/*.map_container {*/
   /*position: relative;*/
   /*padding-top: 50%;*/
 /*}*/
