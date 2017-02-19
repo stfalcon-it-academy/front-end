@@ -1,112 +1,40 @@
-header {
-  width: 100%;
-  height: 200px;
-  background-color: #232323;
-  color: #666666;
+html {
+  font-family: 'Montserrat Light', sans-serif;
+  font-size: 15px;
+  line-height: 1.7333;
+}
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
 }
 
-.wrapper {
-   width: 1170px;
-   margin: 0 auto;
- }
-
-header .first-line {
-   background-color: #2b2b2b;
-   font-size: 14px;
-   height: 34px;
-   line-height: 34px;
- }
-header .phone {
-   float: left;
- }
-header .login {
-   float: right;
- }
-a {
-   text-decoration: none;
- }
-header .phone a,
-header .login a {
-   color: #7f7f7f;
- }
-
-header .second-line {
-   height: 60px;
-   margin-top: 30px;
- }
-
-header .logo {
- float: left;
- }
-
-header .search {
-   height: 45px;
-   width: 275px;
-   float: right;
-   border: 1px solid #323232;
- }
-
-header .search input {
-   width: 240px;
-   line-height: 43px;
-   background-color: #232323;
-   border: none;
-   color: #666666;
-   font-size: 13px;
-   padding-left: 25px;
- }
-
-header .search img {
-   vertical-align: middle;
- }
-header .menu li {
-   display: inline;
-   list-style-type: none;
- }
-.third-line {
-   height: 57px;
- }
-.menu {
-   padding-left: 0;
-   float: left;
- }
-.third-line .menu li a {
-   font-size: 16px;
-   color: #f5f5f5;
-   margin-right: 47px;
- }
-.third-line .menu .active {
-    color: #be926f;
-  }
-.bag {
-   background-image: url(bag.png);
-   float:right ;
-   z-index: 4;
-   height: 30px;
-   width: 30px;
-   background-repeat: no-repeat;
-   margin-top: 21px;
- }
-
-#contact {
-   width: 1170px;
-   height: 117px;
-   margin: 0 auto;
-   margin-top: 30px;
-   background-color: #e7e7e7;
-   line-height: 117px;
- }
-.first {
-   font-size: 30px;
-   color: #232323;
-   float: left;
-   padding-left: 28px;
- }
-.cont1{
-   float: right;
-   padding-right: 28px;
- }
-.cont1 a {
-   color: #666666;
-   font-size: 14px;
- }
+.container{
+  margin: 0 auto;
+  width: 1170px;
+}
+body {
+min-width: 1170px;
+}
+.header-top {
+  background: #2b2b2b;
+  font-size: 14px;;
+}
+.header-phone{
+  float: left;
+  color: #7f7f7f;
+}
+.header-user {
+  float: right;
+  color: #3b3b3b;
+}
+.header-user{
+  color: #666666;
+}
+.header-phone, .header-user{
+  padding: 5px 0;
+}
+.clearfix::after {
+  content: '';
+  display: table;
+  clear: both;
+}
