@@ -1,0 +1,46 @@
+html{
+  font-family: 'Montserrat Light', arial;
+}
+p{
+  font-size: 15px;
+  line-height: 1.73em;
+  padding-bottom: 15px;
+}
+h1{
+  font-size: 24px;
+  margin-bottom: 10px;
+  font-weight: 400;
+}
+.text{
+  width: 870px;
+  height: 662px;
+  text-align: justify;
+  word-spacing:0.2em;
+
+}
+.inline{
+  display: inline-block;
+}
+.inline{
+  border-right: 1px solid #999999;
+  padding-right: 23px;
+  margin-bottom: 40px;
+  text-align: center;
+  padding-left: 24px;
+}
+.inline + .inline + .inline
+{
+  border: none;
+}
+
+.darkgrey{
+  color: #666666;
+}
+span{
+  font-size: 14px;
+  color: #999999;
+}
+h1 + .inline{
+  padding-left: 0;
+}
+
