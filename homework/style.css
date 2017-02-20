@@ -1,58 +1,64 @@
 body {
+  counter-reset: pages;
   background-color: #555555;
-  width: 1000px;
-}
-.content {
-   width: 920px;
-   font-size: 14px;
- }
 
-ol {
-   counter-reset: list 0;
- }
-ol li:before {
-   counter-increment: list;
-   content: counter(list);
-   color: #ffffff;
-   font-size: 24px;
-   font-family: Times New Roman, sans-serif;
-   position: relative;
-   background-color: #cc4242;
-   float: left;
-   width: 50px;
-   text-align: center;
-   line-height: 74px;
+}
+li {
+  counter-increment: pages;
 }
 
-ol li:nth-child(1):before{
-  line-height: 125px;
+li:before {
+   content: counter(pages);
+
 }
 
-ol li:nth-child(odd):before {
-   background-color: #cc4242;
+li::before{
+  list-style: none;
+  float: right;
+}
+
+ul li::before {
+   display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  font-size: 24px;
+  width: 60px;
+  text-align: center;
+  position: absolute;
+  font-family: "Times New Roman",sans-serif;
+  color: #ffffff;
  }
 
-ol li:nth-child(even):before {
+ul li:nth-child(even):before {
    background-color: #ff5353;
  }
+ul li:nth-child(odd):before {
+  background-color: #cc4242;
+}
 li {
   list-style-type: none;
  }
-ol li {
-   text-align: left;
+ li {
+
    position: relative;
-   float: right;
+   font-size: 14px;
    font-family: Arial, sans-serif;
  }
-ol li:nth-child(odd) {
+ul li:nth-child(odd) {
    background-color: #cccccc;
 
  }
-ol li:nth-child(even) {
+ul li:nth-child(even) {
    background-color: #ffffff;
  }
-ol li div {
-  padding-top: 13px;
-  padding-right: 12px;
-  padding-bottom: 13px;
+ul li div {
+  padding-left: 65px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+ul {
+  padding-left: 0;
+  margin-top: 0;
+  margin-bottom: 0;
 }
