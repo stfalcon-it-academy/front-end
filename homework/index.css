@@ -4,7 +4,6 @@ ol {
 
 .counter {
   width:  870px;
-  height: 514px;
   display: block;
   margin: 0 auto;
 }
@@ -16,12 +15,15 @@ li{
   float: right;
 }
 
-
+span{
+  display: block;
+  margin-top: 10px;
+}
 li::before {
   content: counter(pages);
   display: block;
-  width: 50px;
-  height: 80px;
+  width: 55px;
+  height: 85px;
   background-color: #ff5353;
   float: left;
   text-align: center;
