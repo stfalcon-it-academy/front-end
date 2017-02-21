@@ -1,52 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="stylesheet" href="normalize.css">
-    <link rel="stylesheet" href="index.css">
-    <meta charset="UTF-8">
-    <title></title>
+  <meta charset="UTF-8">
+  <title></title>
+  <link rel="stylesheet" href="index.css">
+  <link rel="stylesheet" href="normalize.css">
+  <link href="http://uk.allfont.net/allfont.css?fonts=montserrat" rel="stylesheet" type="text/css" />
+  <link href="http://uk.allfont.net/allfont.css?fonts=montserrat-light" rel="stylesheet" type="text/css" />
 </head>
 <body>
-<div class="header">
-  <div class="verh">
-    <div class="numberphone"><a href="tel:+123456789">(+123) 456 789</div>
-    <div class="loginregister">
-      <a href="" class="logpas">Log in</a> <span>or</span> <a href="" class="logpas">Register</a>
+<header class="page-header">
+  <div class="header-top clearfix">
+    <div class="container">
+      <div class="header-phone montserrat-light"><a href="tel:(+123) 456 789">(+123) 456 789</a></div>
+      <div class="header-user montserrat"><a href="#">Log in</a> <span class="sep">or</span> <a href="#">Register</a></div>
     </div>
-    <div class="clear"></div>
+  </div>
+  <div class="container clearfix">
+    <a class="header-logo" href="#">
+      <img src="image/logo.jpg" width="166" height="49" alt="">
+    </a>
+    <form action="#" class="header-search">
+      <input class="montserrat-light" type="search" placeholder="Search Products...">
+      <button></button>
+    </form>
+  </div>
+  <div class="container clearfix">
+    <a href="#" class="header-cart">
+      <span class="cart-count montserrat">2</span>
+    </a>
+    <nav class="header-nav montserrat">
+      <ul>
+        <li class="current"><a href="#">Home</a></li>
+        <li><a href="#">Living room</a></li>
+        <li><a href="#">Office</a></li>
+        <li><a href="#">Bedroom</a></li>
+        <li><a href="#">Blog</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+
+  </div>
+</header>
+<div class="contact-us montserrat">
+  <a href="#">CONTACT US</a>
+  <div class="homecontact">
+    <a href="#">HOME</a>/<a href="#">CONTACT</a>
   </div>
 </div>
-<div class="head">
-    <div class="image">
-        <div class="logo">
-            <img src="image/logo.jpg">
-        </div>
-        <form>
-            <input class="search" type="text" placeholder="Search products...">
-            <button><img class="linza" src="image/linza.jpg"></button>
-        </form>
-    </div>
-    <div class="clear"></div>
-    <nav class="menu">
-        <ul>
-          <li><a href="" class="nav">Home</a></li>
-          <li><a href="" class="nav1">Living room</a></li>
-          <li><a href="" class="nav1">Office</a></li>
-          <li><a href="" class="nav1">Bedroom</a></li>
-          <li><a href="" class="nav1">Blog</a></li>
-          <li><a href="" class="nav1">Contact</a></li>
-       </ul>
-      <a href="#" class="bag1"><span class="kilkisttovariv">2</span></a>
-
-   </nav>
-
-    <div class="clear"></div>
-</div>
-
-<div class="info">
-  <div class="contactus">CONTACT US</div>
-  <div class="homecontact"><span class="home">HOME /</span> CONTACT</div>
-</div>
-
 </body>
 </html>

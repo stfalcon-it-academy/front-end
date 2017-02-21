@@ -1,220 +1,164 @@
-@font-face {
-  font-family: Montserrat-Regular;
-  src: url("Montserrat-Regular.otf");
+body {
+  min-width: 1170px;
 }
-.header{
-    height: 35px;
-    background: #2b2b2b;
-    position: relative;
-    width: 100%;
+.montserrat-light{
+  font-family: 'Montserrat Light', sans-serif;
 }
-body{
-  min-width: 61%;
+.montserrat{
+  font-family: 'Montserrat', sans-serif;
 }
-.verh{
-  width: 61%;;
-  height: 35px;
+.page-header{
+  background-color: #232323;
+}
+.header-top {
+  margin-bottom: 30px;
+  background-color: #2b2b2b;
+  color: #7f7f7f;
+  font-size: 14px;
+}
+.container {
+  width: 1170px;
+
   margin: auto;
 }
-.numberphone a{
-    display: inline-block;
-    font-family: "Montserrat Light";
-    color: #7f7f7f;
-    font-size: 14px;
-    float: left;
-    padding-top: 11px;
-    text-decoration: none;
+.header-phone{
+  float: left;
+  padding: 9px 0;
 }
-.login, .register, .loginregister{
-    display: inline-block;
-    font-family: Montserrat-Regular;
-    color: #666666;
-    font-size: 14px;
+.header-user{
+  float: right;
+  color: #7f7f7f;
+  padding: 9px 0;
 }
-.or{
-    display: inline-block;
-    font-size: 12px;
-    color: #3b3b3b;
-    vertical-align: middle;
+.clearfix::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+.header-user a{
+  color: #666666;
+  text-decoration: none;
+}
+.header-user a:hover{
+  text-decoration: underline;
+}
+.sep{
+  margin: 0 5px;
+  color: #3b3b3b;
+  font-size: 14px;
+}
+.header-phone a{
+  color: #7f7f7f;
+  text-decoration: none;
+  font-size: 14px;
+}
+.header-logo{
+  float: left;
+}
+.header-search{
+  float: right;
+  border: 1px solid #323232;
+}
+.header-search button{
+  display: inline-block;
+  vertical-align: top;
+  width: 55px;
+  height: 44px;
+  background: url("image/linza.jpg") center center no-repeat;
+  border: none;
+  cursor: pointer;
 
 }
-.loginregister{
-  float: right;
-  line-height: 30px;
+.header-search input{
+  display: inline-block;
+  vertical-align: top;
+  height: 44px;
+  background: none;
+  border: none;
+  width: 215px;
+  padding-left: 25px;
+  font-size: 13px;
+  color: white ;
 }
-.head{
-    background: #232323;
-    height: 167px;
-    width: 100%;
+.header-nav li + li {
+  margin-left: 30px;
 }
-.menu ul{
-    display: inline-block;
-    font-family: Montserrat-Regular;
-    float: left;
-    position: absolute;
+.header-nav ul{
+  list-style: none;
+  padding: 0;
+  margin-left: -10px;
+
 }
-.bag1 {
+.header-nav a{
+  display: block;
+  padding: 10px;
+  color: white;
+  text-decoration: none;
+}
+.header-nav li{
+  display: inline-block;
+
+}
+.header-nav a:hover, .header-nav .current a{
+  color: #be926f;
+}
+.header-cart{
   width: 17px;
   height: 22px;
   background: url("image/bag1.jpg") center center no-repeat;
   float: right;
-  padding: 10px;
-  background-origin: ;
+  padding: 15px;
   text-decoration: none;
-
-}
-.kilkisttovariv{
-  display: inline-block;
-  width: 18px;
-  height: 18px;
   color: #232323;
   font-size: 12px;
+}
+.cart-count{
   background-color: #be926f;
-  border-radius: 18px;
+  border-radius: 50%;
+  width: 18px;
+  height: 18px;
+  display: inline-block;
   text-align: center;
   line-height: 18px;
   position: relative;
-  top: -9px;
-  right: -9px;
-
+  bottom: 9px;
+  left: 8px;
 }
-
-ul{
-    padding: 0;
-}
-li{
-    display: inline-block;
-    color: #ffffff;
-    font-size:16px;
-
-}
-li:first-child{
-    color: #be926f;
-
-}
-.search{
-    font-family:"Montserrat Light";
-    font-size: 13px;
-    color: #666666;
-    height: 93%;
-    width: 90%;
-    padding-left: 25px;
-    background: #232323;
-    border: 0px;
-}
-.input{
-    position: absolute;
-    right: 0;
-    display:inline-block;
-    float: right;
-    height: 45px;
-    width: 250px;
-    border: 3px solid #323232;
-    margin-top: 32px;
-}
-.image{
-    position: relative;
-    height: 100px;
-    width: 61%;
-    margin: auto;
-}
-.logo{
-    position: absolute;
-    float: left;
-    margin-top: 32px;
-}
-
-.info{
-    width: 61%;
-    height: 118px;
-    background: #e7e7e7;
-    position:relative;
-    top: 30px;
-    margin: auto;
-
-}
-.contactus{
-    font-family: Montserrat-Regular;
-    color: #232323;
-    font-size: 30px;
-    position: relative;
-    left: 27px;
-    top: 50px;
-
-}
-.homecontact{
-    font-family: Montserrat-Regular;
-    font-size: 14px;
-    color: #666666;
-    position: absolute;
-    top: 55px;
-    right: 17px;
-}
-.home{
-    color: #999999;
-}
-.contact{
-  width: 100vh;
+.contact-us{
+  max-width: 1170px;
+  background: #e7e7e7;
   margin: auto;
+  margin-top: 30px;
 }
-
-.clear{
-  clear: both;
-}
-.menu{
-  width: 61%;
-  height: 67px;
-  margin: auto;
-  position: relative;
-}
-
-.logpas{
-  color: #666666;
-  font-size: 14px;
+.contact-us>a{
+  color: #232323;
+  font-size: 30px;
   text-decoration: none;
+  display: inline-block;
+  padding-top: 47px;
+  padding-bottom: 45px;
+  padding-left: 27px;
 }
-.logpas ~ span{
-  font-size: 14px;
-  color: #3b3b3b;
-}
-
-.nav {
-  color: #be926f;
-  text-decoration: none;
-  font-size: 16px;
-  padding: 0 25px 0 25px;
-  margin-left: -25px;
-
-}
-.nav1 {
-  padding-left: 50px;
-  color: #ffffff;
-  text-decoration: none;
-  font-size: 16px;
-  padding: 0 25px 0 25px;
-
-}
-
-form{
-  position: relative;
+.homecontact {
   float: right;
-  width: 250px;
-  height: 35px;
-  top: 35px;
-  border: solid #323232 1px;
+  text-decoration: none;
+  color: #999999;
+  font-size: 14px;
+  padding-top: 55px;
+  padding-right: 8px;
 }
-button{
-  display: block;
-  width: 18px;
-  height: 18px;
-  position: absolute;
-  top: 10px;
-  right: 15px;
-  border: 0;
-  padding: 0;
-  cursor: pointer;
+.homecontact a{
+  color: #999999;
+  text-decoration: none;
+  padding-right: 9px;
 }
-a:hover {
+.homecontact a + a{
+  color: #666666;
+  padding-left: 9px;
+}
+.homecontact a + a:hover, .homecontact a:hover, .contact-us>a:hover{
   text-decoration: underline;
 }
-
+.header-nav{
+  padding-bottom: 17px;
+}
