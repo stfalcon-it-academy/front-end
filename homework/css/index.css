@@ -54,13 +54,24 @@
 .headsearch>form{
   text-align: end;
   padding-right: 0;
-  border: 1px solid black;
+  border: 2px solid black;
   float: right;
   padding-right: 0;
 
 }
 .headsearch>form>button{
+  display: inline-block;
   width: 55px;
   height: 35px;
-}
+  vertical-align: top;
+  background-color: #232323;
+  background-image: url(images/logotip.png);
 
+}
+.headsearch>form>input{
+  display: inline-block;
+  vertical-align: top;
+  height: 34px;
+  background-color: #232323;
+  border: none;
+}
