@@ -43,6 +43,7 @@
 }
 .headlogo{
   padding: 0 0;
+  margin-top: 30px;
 }
 .image{
   background-color: #232323;
@@ -50,11 +51,12 @@
 }
 .headsearch{
   padding-right: 0;
+  margin-top: 30px;
 }
 .headsearch>form{
   text-align: end;
   padding-right: 0;
-  border: 2px solid black;
+  border: 1px solid #323232;
   float: right;
   padding-right: 0;
 
@@ -65,8 +67,7 @@
   height: 35px;
   vertical-align: top;
   background-color: #232323;
-  background-image: url(images/logotip.png);
-
+  border: none;
 }
 .headsearch>form>input{
   display: inline-block;
@@ -74,4 +75,52 @@
   height: 34px;
   background-color: #232323;
   border: none;
+  width: 205px;
+  padding-left: 25px;
+  color: #7f7f7f;
+}
+.head-bottom{
+  margin: auto;
+  padding: 0 0;
+}
+.headmenu>ol>li{
+  display: inline-block;
+  font-size: 16px;
+  color: #ffffff;
+  padding: 0px 25px;
+}
+.headmenu{
+  padding: 0 0;
+  padding-top: 30px;
+  padding-bottom: 42px;
+}
+.headmenu>ol{
+  padding: 0 0;
+  margin-left: -25px;
+}
+.headmenu>ol>li:first-child{
+  color: #846751;
+}
+.headmenu>ol>li:hover{
+  color: #846751;
+}
+.bag{
+  text-align: right;
+  padding: 0 0;
+  position: relative;
+  padding-right: 8px;
+  padding-top: 39px;
+}
+.bag>span{
+  font-size: 12px;
+  display: inline-block;
+  border-radius: 18px 18px;
+  width: 18px;
+  height: 18px;
+  text-align: center;
+  line-height: 18px;
+  position: absolute;
+  top: 30px;
+  right: 0px;
+  background: #be926f;
 }
