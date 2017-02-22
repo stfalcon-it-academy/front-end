@@ -1,34 +1,66 @@
+.montserrat{
+  font-family: Montserrat;
+}
+.montserrat-light{
+  font-family: "Montserrat Light";
+}
 .header{
-  background-color: #2b2b2b;
+  background-color: #232323;
   font-size: 14px;
 }
 .header-top{
-  padding-left: 0;
-  padding-right: 0;
+  background-color: #2b2b2b;
 }
-.userlog{
-  padding: 0;
+.header-top-2{
+  padding: 0px;
+  margin: auto;
+  background-color: #2b2b2b;
+}
+.headeruser{
+  padding: 9px 0px;
   text-align: end;
-  font-family: Montserrat;
 }
-.userlog>a{
+.headeruser>a{
   text-decoration: none;
   color: #7f7f7f;
 }
-.userlog>span{
+.headeruser>a:hover{
+  text-decoration: underline;
+}
+.headeruser>span{
   font-size: 12px;
   color: #393939;
 }
-.phone{
-  padding: 0;
-  padding-top: 12px;
-  padding-bottom: 12px;
+.headerphone{
+  padding: 9px 0px;
 }
-.phone>a{
-  font-family: "Montserrat Light";
+.headerphone>a{
   color: #7f7f7f;
+}
+.head{
+  margin: auto;
+  padding: 0 0;
+}
+.headlogo{
+  padding: 0 0;
+}
+.image{
+  background-color: #232323;
 
 }
-.header-top-2 {
-  padding: 0;
+.headsearch{
+  padding-right: 0;
 }
+.headsearch>form{
+  text-align: end;
+  padding-right: 0;
+  border: 1px solid black;
+  float: right;
+  padding-right: 0;
+
+}
+.headsearch>form>button{
+  width: 55px;
+  height: 35px;
+}
+
