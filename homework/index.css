@@ -10,9 +10,7 @@ h1 {
 h1{
   font-size: 24px;
 }
-ul { color: #6B0982;
-}
-}
+
 .details{
   padding: 0;
 }
@@ -25,4 +23,4 @@ ul { color: #6B0982;
   margin: 0 20px;
 }
 .details li:first-child:before {
- display: none;
+ display: none}
