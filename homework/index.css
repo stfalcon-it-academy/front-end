@@ -1,0 +1,43 @@
+html {
+  font-family: 'Montserrat Light', sans-serif;
+  margin-left: 30px;
+  font-size: 15px;
+  line-height: 1.7333em;
+
+}
+h1 h2 h3 h4 h5 h6 {
+  font-weight: 400;
+  font-family: 'Montserrat', sans-serif;
+  margin-bottom: 16px;
+}
+h1{
+  font-size: 1.6em;
+}
+p {
+  margin-bottom: 37px;
+  font-size: 1em;
+}
+.info-class {
+  font-size: 0.933333em;
+  height: 15px;
+  padding-bottom: 37px;
+}
+.info-class ul {
+  padding: 0px;
+}
+ .info-class li {
+  display: inline;
+
+  color: #666666;
+}
+.info-class li+li:before {
+content:'|';
+  margin: 0 20px;
+}
+.one {
+  color: #999999;
+}
+a {
+  text-decoration: none;
+  color: #666666;
+}
