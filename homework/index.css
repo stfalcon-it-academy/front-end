@@ -1,0 +1,11 @@
+.container{
+  margin: 0 auto;
+  height: 1170px;
+}
+body{
+  width: 1170px;
+  margin 0 auto; }
+.header-top {
+  height: 35px;
+  background-color: #2b2b2b;
+}
