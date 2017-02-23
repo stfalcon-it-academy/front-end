@@ -91,7 +91,6 @@ body{
   display: inline-block;
   font-size: 16px;
   color: #ffffff;
-  padding: 0px 25px;
 }
 .headmenu{
   padding: 0 0;
@@ -102,11 +101,15 @@ body{
   padding: 0 0;
   margin-left: -25px;
 }
-.headmenu>ol>li:first-child{
+.headmenu>ol>li:first-child>a{
   color: #846751;
 }
-.headmenu>ol>li:hover{
+.headmenu>ol>li>a:hover{
   color: #846751;
+}
+.headmenu>ol>li>a{
+  color: white;
+  padding: 0px 25px;
 }
 .bag{
   text-align: right;
@@ -144,7 +147,8 @@ body{
   }
   .headmenu>ol>li{
     display: block;
-    padding-top: 5px;
-    padding-bottom: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
   }
 }
