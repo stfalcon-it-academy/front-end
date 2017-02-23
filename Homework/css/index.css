@@ -1,0 +1,35 @@
+header {
+  background-color: #232323;
+}
+
+  .container{
+  background-color: #2b2b2b;
+}
+.header-phone a{
+  color: #7f7f7f;
+  text-decoration: none;
+}
+.header-user{
+  color: #3b3b3b;
+}
+.header-user a{
+  color: #666666;
+  text-decoration: none;
+}
+.header-user a:hover{
+  text-decoration: underline;
+}
+.header-phone, .header-user{
+  padding: 5px 0;
+}
+.header-user .sep {
+  margin: 0 5px;
+}
+.monserat-light{
+  font-family: 'Montserrat Light', sans-serif;
+}
+.monserat {
+  font-family: 'Montserrat', sans-serif;
+}
+
+
