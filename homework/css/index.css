@@ -69,9 +69,9 @@ body{
   width: 55px;
   height: 35px;
   vertical-align: top;
-  background-color: #232323;
   border: none;
   padding: 0 0;
+  background: #232323 url(../images/zoom.png) center center no-repeat;
 }
 .headsearch>form>input{
   display: inline-block;
