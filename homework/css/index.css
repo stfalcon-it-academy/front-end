@@ -1,0 +1,154 @@
+body{
+  min-width: 320px;
+}
+.montserrat{
+  font-family: Montserrat;
+}
+.montserrat-light{
+  font-family: "Montserrat Light";
+}
+.header{
+  background-color: #232323;
+  font-size: 14px;
+}
+.header-top{
+  background-color: #2b2b2b;
+}
+.header-top-2{
+  padding: 0px;
+  margin: auto;
+  background-color: #2b2b2b;
+}
+.headeruser{
+  padding: 9px 0px;
+  text-align: end;
+}
+.headeruser>a{
+  text-decoration: none;
+  color: #7f7f7f;
+}
+.headeruser>a:hover{
+  text-decoration: underline;
+}
+.headeruser>span{
+  font-size: 12px;
+  color: #393939;
+}
+.headerphone{
+  padding: 9px 0px;
+}
+.headerphone>a{
+  color: #7f7f7f;
+}
+.head{
+  margin: auto;
+  padding: 0 0;
+}
+.headlogo{
+  padding: 0 0;
+  margin-top: 30px;
+}
+.image{
+  background-color: #232323;
+
+}
+.headsearch{
+  padding-right: 0;
+  margin-top: 30px;
+}
+.headsearch>form{
+  text-align: end;
+  padding-right: 0;
+  border: 1px solid #323232;
+  float: right;
+  padding-right: 0;
+
+}
+.headsearch>form>button{
+  display: inline-block;
+  width: 55px;
+  height: 35px;
+  vertical-align: top;
+  border: none;
+  padding: 0 0;
+  background: #232323 url(../images/zoom.png) center center no-repeat;
+}
+.headsearch>form>input{
+  display: inline-block;
+  vertical-align: top;
+  height: 34px;
+  background-color: #232323;
+  border: none;
+  width: 218px;
+  padding-left: 25px;
+  color: #7f7f7f;
+}
+.head-bottom{
+  margin: auto;
+  padding: 0 0;
+}
+.headmenu>ol>li{
+  display: inline-block;
+  font-size: 16px;
+  color: #ffffff;
+}
+.headmenu{
+  padding: 0 0;
+  padding-top: 30px;
+  padding-bottom: 42px;
+}
+.headmenu>ol{
+  padding: 0 0;
+  margin-left: -25px;
+}
+.headmenu>ol>li:first-child>a{
+  color: #846751;
+}
+.headmenu>ol>li>a:hover{
+  color: #846751;
+}
+.headmenu>ol>li>a{
+  color: white;
+  padding: 0px 25px;
+}
+.bag{
+  text-align: right;
+  padding: 0 0;
+  position: relative;
+  padding-right: 8px;
+  padding-top: 39px;
+}
+.bag>span{
+  font-size: 12px;
+  display: inline-block;
+  border-radius: 18px 18px;
+  width: 18px;
+  height: 18px;
+  text-align: center;
+  line-height: 18px;
+  position: absolute;
+  top: 30px;
+  right: 0px;
+  background: #be926f;
+}
+
+@media (max-width: 767px) {
+  .headerphone{
+    text-align: center;
+  }
+  .headeruser{
+    text-align: center;
+  }
+  .headlogo{
+    text-align: center;
+  }
+  .headsearch>form{
+    margin-right: calc(50% - 133px)
+  }
+  .headmenu>ol>li{
+    display: block;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+  }
+}
