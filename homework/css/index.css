@@ -139,13 +139,8 @@ body{
   .headlogo{
     text-align: center;
   }
-  .headsearch{
-    height: 40px;
-    float: none;
-
-  }
   .headsearch>form{
-    margin-right: calc(50% - 130px)
+    margin-right: calc(50% - 133px)
   }
   .headmenu>ol>li{
     display: block;
