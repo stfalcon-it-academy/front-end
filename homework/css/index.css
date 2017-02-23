@@ -1,3 +1,6 @@
+body{
+  min-width: 320px;
+}
 .montserrat{
   font-family: Montserrat;
 }
@@ -68,6 +71,7 @@
   vertical-align: top;
   background-color: #232323;
   border: none;
+  padding: 0 0;
 }
 .headsearch>form>input{
   display: inline-block;
@@ -125,6 +129,27 @@
   background: #be926f;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 767px) {
+  .headerphone{
+    text-align: center;
+  }
+  .headeruser{
+    text-align: center;
+  }
+  .headlogo{
+    text-align: center;
+  }
+  .headsearch{
+    height: 40px;
+    float: none;
 
+  }
+  .headsearch>form{
+    margin-right: calc(50% - 130px)
+  }
+  .headmenu>ol>li{
+    display: block;
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
 }
