@@ -1,0 +1,136 @@
+body{
+  min-width: 320px;
+}
+header {
+  background-color: #232323;
+}
+  .header-top{
+  background-color: #2b2b2b;
+}
+.header-phone a{
+  color: #7f7f7f;
+  text-decoration: none;
+}
+.header-user{
+  color: #3b3b3b;
+}
+.header-user a{
+  color: #666666;
+  text-decoration: none;
+}
+.header-user a:hover{
+  text-decoration: underline;
+}
+.header-phone, .header-user{
+  padding-top: 5px;
+  padding-bottom: px;
+}
+.header-user .sep {
+  margin: 0 5px;
+}
+.monserat-light{
+  font-family: 'Montserrat Light', sans-serif;
+}
+.monserat {
+  font-family: 'Montserrat', sans-serif;
+}
+.header-search{
+  float: right;
+  border: 1px solid #323232;
+}
+.header-search input{
+  height: 44px;
+  display: inline-block;
+  vertical-align: top;
+  background: none;
+  border: none;
+  width: 217px;
+  padding-left: 25px;
+  color: #ffffff;
+}
+.header-search button{
+  width: 55px;
+  height: 44px;
+  display: inline-block;
+  vertical-align: top;
+  background: url(../Img/Search.png) center center no-repeat;
+  border: none;
+}
+.header-nav ul{
+  list-style: none;
+  padding: 0px;
+  margin-left: -10px;
+}
+.header-nav li{
+  display: inline-block;
+}
+.header-nav a {
+  display: block;
+  padding: 10px;
+  color: #ffffff;
+  text-decoration: none;
+}
+.header-nav li+li {
+  margin-left: 30px;
+}
+.header-nav a:hover{
+  color: #be926f;
+}
+.current a{
+  color: #be926f;
+}
+.header-cart{
+  background: url(../Img/Bag.png) center center no-repeat;
+  width: 18px;
+  height: 22px;
+  float: right;
+  padding-top: 20px;
+  padding-bottom:20px;
+  font-size: 12px;
+  text-decoration: none;
+  display: inline-block;
+}
+.cart-count{
+  background-color: #be926f;
+  border-radius: 50%;
+  display: inline-block;
+  width: 18px;
+  height: 18px;
+  text-align: center;
+  line-height: 18px;
+  position: relative;
+  bottom: 16px;
+  left: 1px;
+}
+.midle{
+  padding-top:30px;
+  padding-bottom: 30px;
+}
+nav {
+  padding-bottom:30px;
+}
+
+
+@media (max-width: 767px) {
+  .header-phone{
+    text-align: center;
+  }
+  .header-user{
+    text-align: center;
+  }
+  .header-logo{
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .headersearch>form{
+    margin-right: calc(50% - 133px)
+  }
+  .header-nav>ul>li{
+    display: block;
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+  .current{
+    margin-left: 30px;
+  }
+}
