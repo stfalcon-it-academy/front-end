@@ -1,5 +1,5 @@
 body{
-  min-width: 1170px;
+  min-width: 320px;
 }
 .montserrat{
   font-family: 'Montserrat', arial;
@@ -15,7 +15,7 @@ body{
 }
 .container{
   display: flex;
-  width: 1170px;
+  max-width: 1170px;
   margin: auto;
   justify-content: space-between;
 }
@@ -44,6 +44,7 @@ body{
   border: 1px solid #323232;
   margin-top: 30px;
   height: 44px;
+
 }
 .searcher>button{
   background: url("images/zoom.png") center center no-repeat;
@@ -61,10 +62,9 @@ body{
   height: 44px;
   background: #232323;
   border: none;
-  margin-left: 24px;
+  padding-left: 14px;
   width: 192px;
   color: white;
-  padding: 0;
   font-size: 13px;
 }
 .logo{
@@ -112,3 +112,41 @@ a:hover{
   top: -6px;
   right: 0px;
 }
+@media (max-width: 690px) {
+  .head-menu>li{
+    display: block;
+    padding: 15px 15px;
+  }
+  .bag{
+    align-self: flex-start;
+    margin-top: 40px;
+  }
+}
+@media (max-width: 450px) {
+  .logo{
+    text-align: center;
+  }
+  .searcher{
+    margin: auto;
+    margin-top: 25px;
+    width: 252px;
+  }
+  .container-addaptive{
+    flex-direction: column;
+  }
+  .phone{
+    text-align: center;
+  }
+  .user{
+    text-align: center;
+  }
+}
+::-webkit-input-placeholder {
+  padding-left: 10px;
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+  padding-left: 10px;
+}
+
+
