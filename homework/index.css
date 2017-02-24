@@ -1,46 +1,37 @@
-ol {
+body {
   counter-reset: pages;
 }
-
 .counter {
-  width:  870px;
-  display: block;
-  margin: 0 auto;
+  /*width: 920px;*/
+}
+ol {
+  list-style: none;
+  padding: 0;
+  margin: 0;
 }
 li{
   counter-increment: pages;
-  list-style-type: none;
-  display: block;
+  position: relative;
+  border-left: 40px solid #ff5353;
+  font-size: 14px;
   background-color: #ffffff;
-  float: right;
-}
-
-span{
-  display: block;
-  margin-top: 10px;
+  padding: 10px 0 10px 5px;
 }
 li::before {
   content: counter(pages);
-  display: block;
-  width: 55px;
-  height: 85px;
-  background-color: #ff5353;
-  float: left;
   text-align: center;
-  line-height: 80px;
-  margin: 0 2px 0 0;
-  padding: 0;
+  position: absolute;
+  font-size: 24px;
+  left: -40px;
+  width: 40px;
+  top: 50%;
+  margin-top: -12px;
+  color: #ffffff;
 }
-
 li:nth-child(odd) {
   background-color: #cccccc;
 }
 
 li:nth-child(odd):before {
   background-color: #cc4242;
-}
-
-li:nth-child(1):before{
-  height: 145px;
-  line-height: 145px;
 }
