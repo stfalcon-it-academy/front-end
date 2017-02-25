@@ -1,0 +1,32 @@
+body {
+  counter-reset: pages;
+}
+ol {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+li{
+  counter-increment: pages;
+  position: relative;
+  border-left: 40px solid #ff5353;
+  font-size: 14px;
+  background-color: #ffffff;
+  padding: 10px 0 10px 5px;
+}
+li::before {
+  content: counter(pages);
+  text-align: center;
+  position: absolute;
+  font-size: 24px;
+  line-height: 24px;
+  left: -40px;
+  width: 40px;
+  top: 50%;
+  margin-top: -12px;
+  color: #ffffff;
+}
+li:nth-child(odd) {
+  background-color: #cccccc;
+  border-left: 40px solid #cc4242;
+}
