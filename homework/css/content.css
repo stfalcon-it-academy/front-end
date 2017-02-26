@@ -1,0 +1,15 @@
+.content-location {
+  background: #e7e7e7;
+  text-transform: uppercase;
+}
+
+.content-location-nav {
+  margin-top: 51px;
+  margin-right: 13px;
+}
+
+.content-location-info {
+  padding-top: 46px;
+  padding-bottom: 41px;
+  padding-left: 27px;
+}
