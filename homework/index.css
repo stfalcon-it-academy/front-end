@@ -1,0 +1,28 @@
+body {
+  margin: 0;
+  padding: 0;
+  counter-reset: section;  /* Устанавливает значение счетчика, равным 0 */
+}
+ol {
+  list-style: none;
+  margin: 0;
+}
+li{
+  position: relative;
+}
+li:nth-child(odd){
+  background-color: #cccccc;
+}
+.number::before {
+  counter-increment: section;   /* Инкрементирует счетчик*/
+  content: "" counter(section) "";   /* Отображает текущее значение счетчика */
+}
+.text {
+  padding: 13px;
+}
+.number{
+  width: 40px;
+  background: rgba(255, 0, 0, 0.5);
+  position: absolute;
+  height: 100%;
+}
