@@ -1,6 +1,7 @@
 .content-location {
   background: #e7e7e7;
   text-transform: uppercase;
+  margin-bottom: 31px;
 }
 
 .content-location-info {
@@ -10,7 +11,7 @@
 }
 
 .content-location-nav {
-  margin-top: 51px;
+  margin-top: 41px;
   margin-right: 13px;
 }
 
@@ -23,7 +24,21 @@
   color: #666666;
 }
 
-.content-location-nav span  {
-  padding: 0 3px;
-  color: #999999;
+.content-location-nav>.breadcrumb {
+  background: transparent;
+}
+
+.map-responsive	{
+  overflow:hidden;
+  padding-bottom:56.25%;
+  position:relative;
+  height:0;
+}
+
+.map-responsive iframe	{
+  left:0;
+  top:0;
+  height: 631px;;
+  width: 1170px;
+  position:absolute;
 }
