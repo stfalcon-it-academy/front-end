@@ -1,0 +1,37 @@
+body {
+  margin: 0;
+  padding: 0;
+  counter-reset: section;  /* Устанавливает значение счетчика, равным 0 */
+}
+ol {
+  list-style: none;
+  margin: 0;
+}
+li{
+  position: relative;
+}
+li:nth-child(odd){
+  background-color: #cccccc;
+}
+.number::before {
+  counter-increment: section;   /* Инкрементирует счетчик*/
+  content: "" counter(section) "";   /* Отображает текущее значение счетчика */
+  color: #fff;
+  font-size: 24px;
+  position: absolute;
+  top: 50%;
+  margin-top: -14px;
+  margin-left: -6px;
+
+}
+.text {
+  font-size: 16px;
+  padding: 13px 13px 13px 50px;
+}
+.number{
+  width: 40px;
+  background: rgba(255, 0, 0, 0.5);
+  position: absolute;
+  height: 100%;
+  text-align: center;
+}
