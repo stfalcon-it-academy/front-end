@@ -16,3 +16,14 @@ body {
 .monserat {
   font-family: 'Montserrat', sans-serif;
 }
+
+@media (max-width: 768px) {
+  .nav-pills>li {
+    float: none;
+  }
+  .content-location-nav {
+    padding-left: 27px;
+    margin-top: 0;
+    margin-right: 0;
+  }
+}
