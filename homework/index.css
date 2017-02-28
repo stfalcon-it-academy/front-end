@@ -4,10 +4,10 @@ html{
 body{
   min-width: 320px;
 }
-.page-header{
+.page-header {
   background-color: #232323;
 }
-.header-top{
+.header-top {
   background-color: #2b2b2b;
   font-size:14px;
   margin-bottom: 30px;
@@ -28,6 +28,17 @@ body{
 .user{
   float: right;
   color: #3b3b3b;
+}
+@media (max-width: 500px) {
+  .phone{
+    float: none;
+  }
+  .user {
+    float: none;
+  }
+  .header-top {
+    text-align: center;
+  }
 }
 .user .sep {
   margin: 0 5px;
@@ -91,6 +102,11 @@ body{
     z-index: 2;
     position: relative;
   }
+  .header-logo{
+    float: none;
+    display: block;
+    text-align: center;
+  }
 }
 .header-nav ul {
   list-style: none;
@@ -146,11 +162,12 @@ body{
 }
 .contact-us{
   display: block;
-  width: 1170px;
+  max-width: 1170px;
   margin: 20px auto 0;
   text-align: center;
   background-color: #e7e7e7;
 }
+
 .contact{
   padding:48px 0 48px 44px;
   font-size:30px;
@@ -168,6 +185,19 @@ body{
   float: right;
   vertical-align: center;
 }
+@media (max-width: 420px) {
+  .contact {
+    float: none;
+    padding: 0 0 10px;
+  }
+  .contact-uss{
+    padding: 0 0 5px;
+    float: none;
+  }
+  .contact-us {
+    text-align: center;
+  }
+}
 .contact-uss a{
   color: #9f9f9f;
 }
@@ -176,6 +206,19 @@ body{
 }
 .maps{
   display: block;
-  margin: 10px auto 0;
+  margin: 10px auto 10px;
   text-align: center;
+}
+@media (max-width: 1170px) {
+  .maps{
+    overflow:hidden;
+    padding-bottom: 50%;
+    position:relative;
+  }
+  .maps iframe{
+    left:0;
+    top:0;
+    width:100%;
+    position:absolute;
+  }
 }
