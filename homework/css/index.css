@@ -4,19 +4,52 @@ html {
 }
 body {
   min-width: 320px;
+  background-color: #f7f7f7;
 }
 header {
+  background-color: #232323;
+}
+.page-head {
   background-color: #232323;
 }
 .header-authorization {
   font-size: 0.875em;
   color: #393939;
   padding: 10px 0;
+  margin-bottom: 30px;
 }
 .header-authorization a {
   color: #7f7f7f;
   text-decoration: none;
 }
-.header-authorization-login{
-
+.header-furniture-search {
+  background-color: #fff;
+}
+.header-furniture-search input, .header-furniture-search button {
+  background-color: #232323;
+  border: 1px solid #323232;
+  vertical-align: middle;
+}
+.header-furniture-search button {
+  color: #ffffff;
+  border: none;
+  padding: 8px;
+  margin-left: -40px;
+}
+.header-navigation ul {
+  display: flex;
+  list-style: none;
+  padding: 0;
+}
+.header-navigation a {
+  display: block;
+  text-decoration: none;
+  color: #fff;
+  padding: 25px;
+  margin-left: -25px;
+  font-size: 16px;
+}
+.header-navigation a:hover {
+  color: #be926f;
+  transition: 0.5s;
 }
