@@ -1,3 +1,4 @@
+@import "main.css";
 html {
   font-family: 'Montserrat', sans-serif;
   background-color: #f7f7f7;
@@ -23,19 +24,22 @@ header {
   text-decoration: none;
 }
 .header-furniture-search {
-  background-color: #fff;
+  background-color: transparent;
 }
 .header-furniture-search input, .header-furniture-search button {
-  background-color: #232323;
+  background-color: transparent;
   border: 1px solid #323232;
-  vertical-align: middle;
+  min-height: 36px;
 }
 .header-furniture-search button {
   color: #ffffff;
   border: none;
   padding: 8px;
-  margin-left: -40px;
 }
+.header-furniture-search .glyphicon {
+  top: auto;
+}
+
 .header-navigation ul {
   display: flex;
   list-style: none;

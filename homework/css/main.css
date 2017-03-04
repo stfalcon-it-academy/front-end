@@ -1,0 +1,25 @@
+main{
+  margin: 25px 0;
+  text-transform: uppercase;
+}
+main .container {
+  background-color: #e7e7e7;
+}
+.main-contact-us {
+  line-height: 115px;
+}
+.home-contact a {
+  text-align: center;
+}
+.contact-us h1 {
+  line-height: 115px;
+  margin: 0;
+}
+.home-contact a {
+  text-decoration: none;
+  color: #232323;
+}
+.home-contact a:hover {
+  color: #999999;
+}
+
