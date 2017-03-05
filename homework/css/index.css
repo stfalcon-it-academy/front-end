@@ -3,10 +3,12 @@
 @import "content.css";
 
 html  {
+
 }
 
 body {
   min-width: 320px;
+  background: #f7f7f7;
 }
 
 .monserat-lite {
@@ -17,3 +19,6 @@ body {
   font-family: 'Montserrat', sans-serif;
 }
 
+#wight {
+  background: #ffffff;
+}
