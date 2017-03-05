@@ -1,0 +1,64 @@
+header {
+  background: #232323;
+  font-size: 1em;
+  margin-bottom: 22px;
+}
+
+.header-top {
+  background: #2b2b2b;
+  padding: 7px 0;
+}
+
+.header-phone a {
+  text-decoration: none;
+  color: #6c6c6c;
+}
+.header-phone a:hover,
+.header-user a:hover {
+  color: #fff;
+}
+
+.header-user a {
+  text-decoration: none;
+  color: #5f5f5f;
+}
+
+.header-user span {
+  color: #393939;
+}
+
+.header-logo,.header-serch {
+  padding-top: 2.214em;
+}
+
+.btn {
+  background: transparent;
+}
+
+.form-control {
+  background: transparent;
+  font-size: 0.928em;
+  color: #ffffff;
+}
+
+.glyphicon-search {
+  color: #ffffff;
+}
+
+.nav-menu {
+  margin: 25px 0;
+}
+
+nav>ul>li a {
+  color: #ffffff;
+}
+
+nav>ul>li a:hover {
+  color: #b48b6a;
+}
+
+@media (max-width: 768px) {
+  .nav-pills>li {
+    float: none;
+  }
+}

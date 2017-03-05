@@ -1,0 +1,149 @@
+.feadback {
+  padding-bottom: 40px;
+  padding-top: 35px;
+}
+
+.content-location {
+  background: #e7e7e7;
+  text-transform: uppercase;
+  margin-bottom: 31px;
+}
+
+.content-location-info {
+  padding-top: 46px;
+  padding-bottom: 41px;
+  padding-left: 27px;
+}
+
+.content-location-nav {
+  margin-top: 41px;
+  margin-right: 13px;
+}
+
+.content-location-nav a {
+  text-decoration: none;
+  color: #999999;
+}
+
+.content-location-nav a:hover {
+  color: #666666;
+}
+
+.content-location-nav>.breadcrumb {
+  background: transparent;
+}
+
+.map-responsive	{
+  overflow:hidden;
+  padding-bottom:56.25%;
+  position:relative;
+  height:0;
+}
+
+.map-responsive iframe	{
+  left:0;
+  top:0;
+  height: 631px;;
+  width: 1170px;
+  position:absolute;
+}
+
+
+@media (max-width: 768px) {
+  .content-location-nav {
+    padding-left: 27px;
+    margin-top: 0;
+    margin-right: 0;
+  }
+}
+
+.content-adress ul {
+  padding: 0;
+  list-style: none;
+  padding-bottom: 20px;
+}
+
+.content-adress ul>li{
+  font-size: 15px;
+  line-height: 26px;
+  color: #333333;
+}
+
+.content-adress a {
+  text-decoration: none;
+  color: #333333;
+  font-size: 15px;
+  line-height: 26px;
+}
+
+.content-adress h3  {
+  padding-bottom: 15px;
+}
+
+#fist-form {
+  padding: 40px 0;
+}
+
+.content-user input {
+  margin-bottom: 35px;
+}
+
+.content-user button {
+  border-color: #be926f;
+  border-radius: 0;
+  height: 48px;
+  width: 200px;
+  text-transform: uppercase;
+}
+
+.form-control-2 {
+  display: block;
+  width: 100%;
+  height: 36px;
+  padding: 6px 12px;
+  font-size: 14px;
+  line-height: 1.42857143;
+  color: #555;
+  background-color: #fff;
+  background-image: none;
+  border-bottom: 1px solid #ccc;
+  border-left: none;
+  border-right: none;
+  border-top: none;
+}
+
+.glyphicon {
+  color: #999999;
+}
+
+
+.subscribe {
+  background: #ffffff;
+  margin-top: 40px;
+}
+
+.subscribe input {
+  height: 52px;
+  margin-top: 48px;
+  margin-bottom: 48px;
+}
+
+.subscribe-info {
+  padding-top: 20px;
+}
+
+.subscribe button {
+  margin-top: 48px;
+  margin-bottom: 48px;
+  border: 1px solid #be926f;
+  text-transform: uppercase;
+  font-size: 16px;
+  padding-top: 13px;
+  padding-bottom: 8px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.subscribe img {
+  margin-right: 10px;
+}
