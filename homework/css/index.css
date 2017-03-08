@@ -39,21 +39,20 @@ header {
 .header-furniture-search .glyphicon {
   top: auto;
 }
-
-.header-navigation ul {
-  display: flex;
-  list-style: none;
-  padding: 0;
+.navbar-default {
+  background-color: transparent;
+  border-color: transparent;
 }
-.header-navigation a {
-  display: block;
-  text-decoration: none;
+.navbar-default .navbar-nav>li>a {
   color: #fff;
-  padding: 25px;
-  margin-left: -25px;
   font-size: 16px;
 }
-.header-navigation a:hover {
+.navbar-default .navbar-nav>li>a:hover {
+  color: #be926f;
+  transition: 0.5s;
+}
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus {
+  background-color: transparent;
   color: #be926f;
   transition: 0.5s;
 }
