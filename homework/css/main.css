@@ -2,11 +2,13 @@ main{
   margin: 25px 0;
   text-transform: uppercase;
 }
-main .container {
-  background-color: #e7e7e7;
+main>.container {
+  background-color: #f7f7f7;
 }
 .main-contact-us {
   line-height: 115px;
+  background-color: #e7e7e7;
+  margin-bottom: 30px;
 }
 .home-contact a {
   text-align: center;
@@ -22,4 +24,3 @@ main .container {
 .home-contact a:hover {
   color: #999999;
 }
-
