@@ -1,20 +1,17 @@
+@import url(responsive-text.css);
 html{
   font-family: 'Montserrat', sans-serif;
 }
 body{
-  min-width:1170px;
+  min-width:340px;
 }
-.page-header{
+.site-header{
   background-color: #232323;
 }
 .header-top{
   background-color: #2b2b2b;
   font-size:14px;
   margin-bottom: 30px;
-}
-.container{
-  margin: 0 auto;
-  width: 1170px;
 }
 .phone{
   float: left;
@@ -41,11 +38,7 @@ body{
 .phone,.user {
   padding: 5px 0;
 }
-.clearfix::after{
-  content: '';
-  display: table;
-  clear: both;
-}
+
 .header-logo{
   float: left;
 }
@@ -68,8 +61,8 @@ body{
   display: inline-block;
   vertical-align: top;
   width: 55px;
+  background-color: #232323;
   height: 44px;
-  background:  url(images/search.png) center center no-repeat;
   border: none;
 }
 .header-nav ul {
@@ -94,11 +87,11 @@ body{
 .header-nav a:hover, .header-nav .current a {
   color: #be926f;
 }
-.header-cart{
+.header-carts{
   width: 17px;
   height: 22px;
   float: right;
-  background:  url(images/icon.png) center center no-repeat;
+  background: url (images/icon.jpg) center center no-repeat;
   padding:10px;
   text-decoration: none;
   color: #232323;
@@ -148,7 +141,10 @@ body{
 }
 .maps{
   display: block;
-  /*margin-top:10px;*/
   margin: 10px auto 0;
   text-align: center;
+}
+
+.glyphicon-search {
+  color: #ffffff;
 }
