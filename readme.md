@@ -1,7 +1,8 @@
 #Функції
-1. Оголошення функцій
-1. Область видимості змінних
-1. `return`
+1. Оголошення функцій [?](https://learn.javascript.ru/function-basics#объявление)
+1. Параметри функцій [?](https://learn.javascript.ru/function-basics#параметры)
+1. Область видимості змінних [?](https://learn.javascript.ru/function-basics#локальные-переменные)
+1. `return` [?](https://learn.javascript.ru/function-basics#возврат-значения)
 1. Анонімні функції
 
 #Цикли
@@ -11,7 +12,7 @@
 1. `break` [?](https://learn.javascript.ru/while-for#прерывание-цикла-break)
 1. `continue` [?](https://learn.javascript.ru/while-for#continue)
 
-#Таймери
+#Таймери [?](https://learn.javascript.ru/settimeout-setinterval)
 1. `setTimeout()`
 1. `clearTimeout()`
 1. `setInterval()`
