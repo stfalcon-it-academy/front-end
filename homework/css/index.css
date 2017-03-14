@@ -14,7 +14,6 @@ body{
   margin-bottom: 30px;
 }
 .phone{
-  float: left;
   color: #7f7f7f;
 }
 .phone a {
@@ -22,7 +21,6 @@ body{
   text-decoration: none;
 }
 .user{
-  float: right;
   color: #3b3b3b;
 }
 .user .sep {
@@ -38,17 +36,13 @@ body{
 .phone,.user {
   padding: 5px 0;
 }
-
-.header-logo{
-  float: left;
-}
+ .header-logo {
+   margin-bottom: 10px;
+ }
 .header-search{
-  float: right;
-  border: 1px solid #323232;
+    border: 1px solid #323232;
 }
 .header-search input {
-  display: inline-block;
-  vertical-align: top;
   height: 44px;
   background: none;
   border: none;
@@ -58,8 +52,6 @@ body{
   color: #ffffff;
 }
 .header-search button{
-  display: inline-block;
-  vertical-align: top;
   width: 55px;
   background-color: #232323;
   height: 44px;
@@ -115,7 +107,7 @@ body{
   background-color: #e7e7e7;
 }
 .contact{
-  padding:48px 0 48px 44px;
+  padding:48px 0 48px 25px;
   font-size:30px;
   text-transform: uppercase;
  }
@@ -125,9 +117,8 @@ body{
   color: #232323;
 }
 .contact-uss{
-  padding:54px 30px 50px 0;
+  padding:54px 30px 50px 25px;
   font-size:14px;
-  vertical-align: center;
 }
 .contact-uss a{
   color: #9f9f9f;
@@ -139,6 +130,7 @@ body{
   overflow:hidden;
   padding-bottom: 50%;
   position:relative;
+  margin-bottom: 20px;
 
  }
 .maps iframe{
