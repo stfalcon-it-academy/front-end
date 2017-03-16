@@ -1,0 +1,144 @@
+@import url(responsive-text.css);
+html{
+  font-family: 'Montserrat', sans-serif;
+}
+body{
+  min-width: 340px;
+}
+.site-header{
+  background-color: #232323;
+}
+.header-top{
+  background-color: #2b2b2b;
+  font-size:14px;
+  margin-bottom: 30px;
+}
+.phone{
+  color: #7f7f7f;
+}
+.phone a {
+  color: #7f7f7f;
+  text-decoration: none;
+}
+.user{
+  color: #3b3b3b;
+}
+.user .sep {
+  margin: 0 5px;
+}
+.user a{
+  color: #666666;
+  text-decoration: none;
+}
+.user a:hover {
+  text-decoration: underline;
+}
+.phone,.user {
+  padding: 5px 0;
+}
+ .header-logo {
+   margin-bottom: 10px;
+ }
+.header-search{
+    border: 1px solid #323232;
+}
+.header-search input {
+  height: 44px;
+  background: none;
+  border: none;
+  width: 220px;
+  padding-left:25px;
+  font-size:13px;
+  color: #ffffff;
+}
+.header-search button{
+  width: 55px;
+  background-color: #232323;
+  height: 44px;
+  border: none;
+}
+.header-nav ul {
+  list-style: none;
+  padding: 0;
+  margin-left: -10px;
+}
+.header-nav li + li{
+  margin-left:30px;
+}
+.header-nav li {
+  display: inline-block;
+}
+.header-user {
+  margin-bottom: 20px;
+}
+.header-nav a {
+  display: block;
+  padding:10px;
+  color: #ffffff;
+  text-decoration: none;;
+
+}
+.header-nav a:hover, .header-nav .current a {
+  color: #be926f;
+}
+.header-carts{
+  float: right;
+  background: url("http://localhost:63342/front-end/homework/images/icon.jpg") center center no-repeat;
+  padding:10px;
+  text-decoration: none;
+  color: #232323;
+  font-size:12px;
+}
+.cart-count {
+  background-color: #be926f;
+  border-radius:50%;
+  width: 18px;
+  height: 18px;
+  display: inline-block;
+  text-align: center;
+  line-height:18px;
+  position: relative;
+  top:-14px;
+  right:-8px;
+}
+.contact-us{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  background-color: #e7e7e7;
+}
+.contact{
+  padding:48px 0 48px 25px;
+  font-size:30px;
+  text-transform: uppercase;
+ }
+.contact-us a{
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #232323;
+}
+.contact-uss{
+  padding:54px 30px 50px 25px;
+  font-size:14px;
+}
+.contact-uss a{
+  color: #9f9f9f;
+}
+.contact-uss a:last-child{
+  color: #666666;
+}
+.maps {
+  overflow:hidden;
+  padding-bottom: 50%;
+  position:relative;
+  margin-bottom: 20px;
+
+ }
+.maps iframe{
+  left:0;
+  top:0;
+  width:100%;
+  position:absolute;
+}
+.glyphicon-search {
+  color: #ffffff;
+}
