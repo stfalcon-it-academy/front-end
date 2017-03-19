@@ -1,24 +1,29 @@
 html {
   font-family: "montserrat Light", sans-serif;
-  font-size: 16px;
+  font-size: 100%;
   line-height: 1.73333;
+}
+.montserrat Ligh {
+  font-family: "montserrat Ligh";
+}
+.montserrat {
+  font-family: "montserrat";
 }
 .page-header {
   background-color: #232323;
   }
-.container {
-  margin: 0 auto;
-  width: 73.125em;
-  color: #666666;
-  }
-.body {
- min-width: 73.175em;
-}
+body {
+   min-width: 73.125em;
+ }
 .header-top {
     background-color: #2b2b2b;
-  font-size: 0.875em;
-  overflow: auto;
-    }
+  font-size: 87.50%;
+}
+.container {
+  margin: 0 auto;
+  width: 83.5714em;
+  color: #666666;
+}
 .header-mob {
   float: left;
   color: #7f7f7f;
@@ -40,6 +45,11 @@ html {
 .or {
   color: #3b3b3b;
   margin: 0 0.3571em;
+}
+.clearfix::after {
+content: '';
+display: table;
+clear: both;
 }
 
 
