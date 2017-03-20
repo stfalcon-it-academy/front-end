@@ -1,6 +1,6 @@
 html {
   font-family: "montserrat Light", sans-serif;
-  font-size: 100%;
+  font-size: 16px;
   line-height: 1.73333;
 }
 .montserrat Ligh {
@@ -13,15 +13,15 @@ html {
   background-color: #232323;
   }
 body {
-   min-width: 73.125em;
+   min-width: 1170px;
  }
 .header-top {
     background-color: #2b2b2b;
-  font-size: 87.50%;
+  font-size: 14px;
 }
 .container {
   margin: 0 auto;
-  width: 83.5714em;
+  width: 1170px;
   color: #666666;
 }
 .header-mob {
@@ -33,7 +33,7 @@ body {
   float: right;
   }
 .header-login, .header-mob {
-  padding: 0.3571em 0;
+  padding: 5px 0;
 }
 .header-login a {
   text-decoration: none; /* Убираем подчеркивание у ссылок */
@@ -44,7 +44,7 @@ body {
 }
 .or {
   color: #3b3b3b;
-  margin: 0 0.3571em;
+  margin: 0 5px;
 }
 .clearfix::after {
 content: '';

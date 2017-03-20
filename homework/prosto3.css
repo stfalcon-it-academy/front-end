@@ -1,0 +1,23 @@
+.header-nav {
+
+}
+.header-nav ul {
+  list-style: none;
+  padding: 0;
+  margin-left: -10px;
+}
+.header-nav li {
+  display: inline-block;
+}
+.header-nav a {
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+  color: #eaeaea;
+}
+.header-nav li+li {
+  margin-left: 27px;
+}
+.header-nav a:hover {
+  color: #be926f;
+}
