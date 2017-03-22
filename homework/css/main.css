@@ -1,5 +1,6 @@
 main{
   margin: 25px 0;
+  font-family: 'Montserrat', sans-serif;
 }
 main>.container {
   background-color: #f7f7f7;
@@ -27,9 +28,49 @@ main>.container {
   color: #999999;
 }
 
+
+
+
+
+.main-feedback, .main-subscription, .main-inform {
+  background-color: #ffffff;
+}
+.main-feedback {
+  margin-bottom: 60px;
+  padding: 65px 0;
+}
+.main-subscription {
+  padding: 60px 0;
+}
+.advantage {
+  padding: 30px 0;
+}
+.main-inform {
+  padding: 45px 0 55px 0;
+}
+
+
+
+
+
+.contact-inform {
+  font-size: 15px;
+}
+.contact-inform h3 {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 15px;
+ }
+.contact-inform>h4 {
+  font-weight: bold;
+  font-size: 15px;
+}
+.contact-inform>ul {
+  padding-left: 0;
+}
 .contact-inform-marker>li{
   list-style: none; /* Убираем исходные маркеры */
-  background: url(images/marker.png) no-repeat 0 4px; /* Параметры фона */
+  background: url(images/marker.png) no-repeat 0 0; /* Параметры фона */
   padding-left: 20px; /* Смещаем текст вправо */
 }
 .contact-inform-tel>li{
@@ -39,6 +80,91 @@ main>.container {
 }
 .contact-inform-mail>li{
   list-style: none; /* Убираем исходные маркеры */
-  background: url(images/mail.png) no-repeat 0 4px; /* Параметры фона */
+  background: url(images/mail.png) no-repeat 0 6px; /* Параметры фона */
   padding-left: 20px; /* Смещаем текст вправо */
 }
+.newsletter>h3 {
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.advantage span {
+  font-size: 18px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.send-now>button {
+  padding: 15px 50px;
+  text-transform: uppercase;
+  font-weight: bold;
+  background-color: transparent;
+  border: solid #be926f 1px;
+}
+.your-subject-email input, .name-website input, .your-message input {
+  border: none;
+  box-shadow: none;
+  border-radius: 0;
+  border-bottom: solid #d5d1cd 1px;
+  padding: 0;
+}
+
+
+.main-subscription{
+  font-weight: bold;
+}
+.main-subscription h3{
+  margin: 0;
+  color: #333333;
+}
+.subscribe>button {
+  padding: 3px 10px;
+  text-transform: uppercase;
+  font-weight: bold;
+  border: solid #be926f 1px;
+}
+.subscription-mail>.input-group>.subscribe>button {
+  margin-left: 15px;
+}
+.newsletter {
+color: #707070;
+font-size: 15px;
+}
+.newsletter>h3 {
+  font-size: 18px;
+}
+
+
+.advantage>div {
+  line-height: 40px;
+  padding-left: 50px;
+  vertical-align: middle;
+}
+.free-shipping {
+  background: url("images/airplan1.png") no-repeat;
+}
+.customer-support {
+  background: url("images/customer.png") no-repeat;
+}
+.money-back {
+   background: url("images/15-days-back.png") no-repeat;
+ }
+.help-center {
+  background: url("images/24-7-tel.png") no-repeat;
+}
+
+
+.main-inform-call, .main-inform-location, .main-inform-mail{
+  text-align: center;
+  padding-top: 70px;
+}
+.main-inform-call {
+  background: url("images/iPhone.png") no-repeat;
+  background-position-x: center;
+}
+.main-inform-location {
+  background: url("images/location.png") no-repeat;
+  background-position-x: center;
+}
+.main-inform-mail {
+  background: url("images/doble-mail.png") no-repeat;
+  background-position-x: center;
+ }
