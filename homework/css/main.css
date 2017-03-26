@@ -64,23 +64,26 @@ main>.container {
 .contact-inform>h4 {
   font-weight: bold;
   font-size: 15px;
+  line-height: 35px;
 }
 .contact-inform>ul {
   padding-left: 0;
+  line-height: 25px;
 }
+
 .contact-inform-marker>li{
   list-style: none; /* Убираем исходные маркеры */
-  background: url(images/marker.png) no-repeat 0 0; /* Параметры фона */
+  background: url(images/marker.png) no-repeat 0 3px; /* Параметры фона */
   padding-left: 20px; /* Смещаем текст вправо */
 }
 .contact-inform-tel>li{
   list-style: none; /* Убираем исходные маркеры */
-  background: url(images/tel.png) no-repeat 0 4px; /* Параметры фона */
+  background: url(images/tel.png) no-repeat 0 6px; /* Параметры фона */
   padding-left: 20px; /* Смещаем текст вправо */
 }
 .contact-inform-mail>li{
   list-style: none; /* Убираем исходные маркеры */
-  background: url(images/mail.png) no-repeat 0 6px; /* Параметры фона */
+  background: url(images/mail.png) no-repeat 0 9px; /* Параметры фона */
   padding-left: 20px; /* Смещаем текст вправо */
 }
 .newsletter>h3 {
@@ -125,8 +128,9 @@ main>.container {
   margin-left: 15px;
 }
 .newsletter {
-color: #707070;
-font-size: 15px;
+  color: #707070;
+  font-size: 15px;
+  line-height: 24px;
 }
 .newsletter>h3 {
   font-size: 18px;

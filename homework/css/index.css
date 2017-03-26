@@ -29,7 +29,7 @@ header {
 }
 .header-furniture-search input, .header-furniture-search button {
   background-color: transparent;
-  border: 1px solid #323232;
+  border: none;
   min-height: 36px;
 }
 .header-furniture-search button {
@@ -40,6 +40,11 @@ header {
 .header-furniture-search .glyphicon {
   top: auto;
 }
+.button-search {
+  border: solid 1px #323232;
+}
+
+
 .navbar-default {
   background-color: transparent;
   border-color: transparent;
@@ -62,6 +67,31 @@ header {
 }
 /* вирівнюю горизонтальну навігацію по лівому краю */
 .container-fluid {
-  margin-left: -30px;
+  margin-left: -45px;
   padding-left: 0;
+}
+.header-bag{
+  height: 22px;
+  width: 17px;
+  background: url("images/bag.png") 0 0 no-repeat;
+  padding: 20px 0 25px 0;
+  margin-right: 10px;
+  float: right;
+  background-origin: content-box;
+  text-decoration: none;
+}
+
+.order-count{
+  width: 18px;
+  height: 18px;
+  color: #232323;
+  font-size: 12px;
+  background-color: #be926f;
+  border-radius: 50%;
+  display: inline-block;
+  text-align: center;
+  line-height: 18px;
+  position: relative;
+  top: -5px;
+  right: -8px;
 }
