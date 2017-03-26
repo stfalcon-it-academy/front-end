@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Lesson 10</title>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400" rel="stylesheet">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+
+  <header class="page-head">
+    <div class="container">
+
+      <div class="header-authorization row">
+        <div class="header-authorization-tel col-lg-6 col-md-6 col-sm-6 col-xs-6">
+          <a href="tel:+123456789">(+123) 456 789</a>
+        </div>
+        <div class="header-authorization-login col-lg-6 col-md-6 col-sm-6 col-xs-6 text-right">
+          <a href="#">Log in</a>
+          <span> or </span>
+          <a href="#">Register</a>
+        </div>
+      </div>
+
+      <div class="header-furniture row">
+        <div class="header-furniture-logo col-lg-6 col-md-6 col-sm-6 col-xs-6">
+          <a href="#">
+            <img src="images/logo.png" class="img-responsive" width="166" height="49" alt="furniture">
+          </a>
+        </div>
+        <div class="header-furniture-search col-lg-6 col-md-6 col-sm-6 col-xs-6 text-right">
+          <form class="form-inline" role="form">
+            <div class="button-search input-group">
+              <input type="text" class="form-control" placeholder="Search for...">
+              <span class="input-group-btn">
+                <button class="btn btn-default" type="button"><span class="glyphicon glyphicon-search"></span></button>
+              </span>
+            </div>
+          </form>
+        </div>
+      </div>
+
+      <nav class="navbar navbar-default" role="navigation">
+        <a href="#" class="header-bag">
+          <span class="order-count">2</span>
+        </a>
+        <div class="container-fluid">
+          <!—Название сайта и кнопка раскрытия меню для мобильных-->
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+          </div>
+
+          <!—Само меню-->
+          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav">
+              <li class="active"><a href="#">Home</a></li>
+              <li><a href="#">Living room</a></li>
+              <li><a href="#">Office</a></li>
+              <li><a href="#">Bedroom</a></li>
+              <li><a href="#">Blog</a></li>
+              <li><a href="#">Contact</a></li>
+            </ul>
+          </div><!-- /.navbar-collapse -->
+        </div><!-- /.container-fluid -->
+      </nav>
+
+
+    </div>
+
+  </header>
+
+  <main class="page-body">
+    <div class="container">
+
+      <div class="main-contact-us row">
+        <div class="contact-us col-lg-6 col-md-6 col-sm-6 col-xs-6">
+          <h1>contact us</h1>
+        </div>
+        <div class="home-contact col-lg-6 col-md-6 col-sm-6 col-xs-6 text-right">
+          <a href="#">home/</a>
+          <a href="#">contact</a>
+        </div>
+      </div>
+
+      <div class="maps row">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d1297.3638673570592!2d26.999036097807497!3d49.43296117446758!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1suk!2sua!4v1489091720373" width="100%" height="630px" frameborder="0" style="border:0" allowfullscreen></iframe>
+      </div>
+
+      <div class="main-feedback row">
+        <div class="contact-inform col-lg-4 col-md-4 col-sm-4 col-xs-12">
+          <h3>contact information</h3>
+
+          <h4>Address</h4>
+          <ul class="contact-inform-marker">
+            <li>Head: 12 W 1st St, 90001 Los Angeles, California, US</li>
+            <li>Agency: 15 RuePernele, 5651 Paris, France</li>
+          </ul>
+
+          <h4>Call Us</h4>
+          <ul class="contact-inform-tel">
+            <li>+1-900-1234-5678</li>
+            <li>+1-900-1234-5678</li>
+          </ul>
+
+          <h4>Email</h4>
+          <ul class="contact-inform-mail">
+            <li>info@templaza.com</li>
+            <li>support@templaza.com</li>
+          </ul>
+        </div>
+
+        <div class="contact-inform col-lg-7 col-lg-offset-1 col-md-7 col-md-offset-1 col-sm-7 col-sm-offset-1 col-xs-12">
+          <div>
+            <h3>write us a message</h3> <br>
+            <span>Your email address will not be published.</span>
+            <form role="form" class="your-message">
+              <div class="form-group">
+                <p class="help-block">Your Message</p>
+                <input name="name" type="text" class="form-control" placeholder=""/>
+                <br>
+              </div>
+            </form>
+          </div>
+
+          <form role="form" class="block-forms">
+            <div class="your-subject-email row">
+              <div class="form-group col-lg-7 col-md-7 col-sm-12 col-xs-12">
+                <input name="name" type="text" class="form-control" placeholder="Your Subject"/>
+              </div>
+              <div class="form-group col-lg-5 col-md-5 col-sm-12 col-xs-12">
+                <input name="email" type="email" class="form-control" placeholder="Email(*)"/>
+              </div>
+            </div><!-- /your-subject-email row -->
+            <div class="name-website row">
+              <div class="form-group col-lg-7 col-md-7 col-sm-12 col-xs-12">
+                <input name="name" type="text" class="form-control" placeholder="Name"/>
+              </div>
+              <div class="form-group col-lg-5 col-md-5 col-sm-12 col-xs-12">
+                <input name="email" type="email" class="form-control" placeholder="Website"/>
+              </div>
+            </div><!-- /name-website row -->
+            <div class="input-group">
+              <span class="send-now input-group-btn">
+                <button class="btn btn-default" type="button">send now</button>
+              </span>
+            </div><!-- /input-group -->
+          </form><!-- /block-forms-->
+
+        </div>
+      </div>
+
+      <div class="main-subscription row">
+        <div class="newsletter col-lg-6 col-md-6 col-sm-12 col-xs-12">
+          <h3>newsletter</h3>
+            Keep up on our always evolving product features and technology.<br>
+            Enter your e-mail and subscribe to our newsletter.
+        </div>
+        <div class="subscription-mail col-lg-6 col-md-6 col-sm-12 col-xs-12">
+          <div class="input-group">
+            <input type="email" class="form-control" placeholder="Email address">
+            <span class="subscribe input-group-btn">
+              <button class="btn btn-default" type="button"><img src="css/images/airplan.png" alt="airplan" width="33" height="26"> subscribe</button>
+            </span>
+          </div><!-- /input-group -->
+        </div><!-- /.col-lg-6 -->
+      </div>
+
+      <div class="advantage row">
+        <div class="free-shipping col-lg-3 col-md-3 col-sm-6 col-xs-12">
+          <span>free shipping</span>
+        </div>
+        <div class="customer-support col-lg-3 col-md-3 col-sm-6 col-xs-12">
+          <span>customer support</span>
+        </div>
+        <div class="money-back col-lg-3 col-md-3 col-sm-6 col-xs-12">
+          <span>15 days money back</span>
+        </div>
+        <div class="help-center col-lg-3 col-md-3 col-sm-6 col-xs-12">
+          <span>24/7 help center</span>
+        </div>
+      </div>
+
+      <div class="main-inform row">
+        <div class="main-inform-call col-lg-4 col-md-4 col-sm-3 col-xs-4">
+          <h4>Call us</h4>
+          <span>1-800-277-7766</span>
+        </div>
+        <div class="main-inform-location col-lg-4 col-md-4 col-sm-3 col-xs-4">
+          <h4>Location</h4>
+          <span>Moscow, Pushkin str. 32/A</span>
+        </div>
+        <div class="main-inform-mail col-lg-4 col-md-4 col-sm-3 col-xs-4">
+          <h4>Mail</h4>
+          <a href="mailto:info@domain.com">info@domain.com</a>
+        </div>
+      </div>
+
+    </div>
+  </main>
+
+  <footer class="page-foot">
+    <div class="container">
+
+      <div class="foot-inform row">
+        <div class="rights-reserved col-lg-4 col-md-4 col-sm-4 col-xs-6">
+          <span>2016 Domain.com. All rights reserved</span>
+        </div>
+        <div class="terms col-lg-4 col-md-4 col-sm-4 col-xs-6">
+          <span>Terms & Conditions Privacy Downloads</span>
+        </div>
+        <div class="social col-lg-4 col-md-4 col-sm-4 col-xs-4">
+          <a href="#" class="twitter">
+            <img src="css/images/twitter.png" width="19" height="16" alt="twitter">
+          </a>
+          <a href="#" class="google">
+            <img src="css/images/google.png" width="18" height="18" alt="google">
+          </a>
+          <a href="#" class="facebook">
+            <img src="css/images/facebook.png" width="9" height="19" alt="facebook">
+          </a>
+        </div>
+      </div>
+
+    </div>
+  </footer>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+</body>
+</html>

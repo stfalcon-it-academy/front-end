@@ -1,0 +1,97 @@
+@import "main.css";
+@import "footer.css";
+html {
+  font-family: 'Montserrat', sans-serif;
+  background-color: #f7f7f7;
+}
+body {
+  min-width: 320px;
+  background-color: #f7f7f7;
+}
+header {
+  background-color: #232323;
+}
+.page-head {
+  background-color: #232323;
+}
+.header-authorization {
+  font-size: 0.875em;
+  color: #393939;
+  padding: 10px 0;
+  margin-bottom: 30px;
+}
+.header-authorization a {
+  color: #7f7f7f;
+  text-decoration: none;
+}
+.header-furniture-search {
+  background-color: transparent;
+}
+.header-furniture-search input, .header-furniture-search button {
+  background-color: transparent;
+  border: none;
+  min-height: 36px;
+}
+.header-furniture-search button {
+  color: #ffffff;
+  border: none;
+  padding: 8px;
+}
+.header-furniture-search .glyphicon {
+  top: auto;
+}
+.button-search {
+  border: solid 1px #323232;
+}
+
+
+.navbar-default {
+  background-color: transparent;
+  border-color: transparent;
+}
+.navbar-default .navbar-nav>li>a {
+  color: #fff;
+  font-size: 16px;
+}
+.navbar-default .navbar-nav>li>a:hover {
+  color: #be926f;
+  transition: 0.5s;
+}
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus {
+  background-color: transparent;
+  color: #be926f;
+  transition: 0.5s;
+}
+.navbar-nav {
+  margin: 7px 15px;
+}
+/* вирівнюю горизонтальну навігацію по лівому краю */
+.container-fluid {
+  margin-left: -45px;
+  padding-left: 0;
+}
+.header-bag{
+  height: 22px;
+  width: 17px;
+  background: url("images/bag.png") 0 0 no-repeat;
+  padding: 20px 0 25px 0;
+  margin-right: 10px;
+  float: right;
+  background-origin: content-box;
+  text-decoration: none;
+}
+
+.order-count{
+  width: 18px;
+  height: 18px;
+  color: #232323;
+  font-size: 12px;
+  background-color: #be926f;
+  border-radius: 50%;
+  display: inline-block;
+  text-align: center;
+  line-height: 18px;
+  position: relative;
+  top: -5px;
+  right: -8px;
+}

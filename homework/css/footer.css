@@ -1,0 +1,25 @@
+footer{
+  background-color: #ffffff;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 13px;
+  color: #999999;
+}
+.foot-inform {
+  padding: 25px 0;
+}
+
+
+.rights-reserved {
+  text-align: left;
+}
+.terms {
+  text-align: center;
+}
+.social {
+  text-align: right;
+}
+.social a{
+  display: inline-block;
+  padding: 0 15px;
+}
+
