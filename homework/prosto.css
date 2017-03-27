@@ -3,11 +3,14 @@ html {
   font-size: 16px;
   line-height: 1.73333;
 }
-.montserrat Ligh {
-  font-family: "montserrat Ligh";
+.montserrat-Ligh {
+  font-family: montserrat Ligh;
 }
 .montserrat {
-  font-family: "montserrat";
+  font-family: montserrat;
+}
+.montserrat-Regular {
+  font-family: montserrat Regular;
 }
 .page-header {
   background-color: #232323;
