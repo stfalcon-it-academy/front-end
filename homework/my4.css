@@ -2,6 +2,9 @@
   background-color: #f7f7f7;
   text-transform: uppercase;
 }
+.contacts {
+font-family: montserrat Regular;
+}
 .contacts:before {
   content: " ";
   height: 30px;

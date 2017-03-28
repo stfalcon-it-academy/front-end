@@ -26,3 +26,6 @@ float: left;
   background: url("Znaky/search.png") center center no-repeat;
   border: none;
 }
+.input {
+  font-family: montserrat Ligh;
+}

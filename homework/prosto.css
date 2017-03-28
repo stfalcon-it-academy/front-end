@@ -3,14 +3,15 @@ html {
   font-size: 16px;
   line-height: 1.73333;
 }
-.montserrat-Ligh {
-  font-family: montserrat Ligh;
-}
 .montserrat {
-  font-family: montserrat;
 }
-.montserrat-Regular {
+@font-face {
+  font-family: montserrat;
+  src: url(fonts/montserrat/montserrat.ttf);
+  font-family: montserrat Ligh;
+  src: url(fonts/montserrat/Montserrat-Light.otf);
   font-family: montserrat Regular;
+  src: url(fonts/montserrat/Montserrat-Regular.otf);
 }
 .page-header {
   background-color: #232323;
@@ -31,9 +32,11 @@ body {
   float: left;
   color: #7f7f7f;
   text-decoration: none; /* Убираем подчеркивание у ссылок */
+  font-family: montserrat Ligh;
 }
 .header-login {
   float: right;
+  font-family: montserrat Regular;
   }
 .header-login, .header-mob {
   padding: 5px 0;
