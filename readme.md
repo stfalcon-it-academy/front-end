@@ -1,7 +1,7 @@
 # Стилізація і валідація форм
 
 ### Стилізація `checkbox` і `radio` засобами `CSS`
-### Uniform.js
+### Uniform.js [?](http://opensource.audith.org/uniform/)
 * `checkbox`, `radio`
   * `radioClass`
   * `checkboxClass`
@@ -16,7 +16,7 @@
   * `selectAutoWidth `
 * `$.uniform.update()`
 
-### Chosen.js
+### Chosen.js [?](https://harvesthq.github.io/chosen/)
 * Опції
   * `disable_search`
   * `disable_search_threshold`
@@ -24,7 +24,6 @@
   * `placeholder_text_multiple`
   * `no_results_text`
   * `max_selected_options`
-  * `$(element).trigger("chosen:updated")`
 * Події
   * `change`
   * `chosen:ready`
@@ -37,3 +36,10 @@
   * `chosen:activate`
   * `chosen:open`
   * `chosen:close`
+
+### jQuery Validation Plugin [?](https://jqueryvalidation.org)
+* `.validate()` [?](https://jqueryvalidation.org/validate/)
+* `rules` [?](https://jqueryvalidation.org/documentation/#link-list-of-built-in-validation-methods)
+* `messages` [?](https://jqueryvalidation.org/validate/#messages)
+* `submitHandler` [?](https://jqueryvalidation.org/validate/#submithandler)
+* `errorClass` [?](https://jqueryvalidation.org/validate/#errorclass)
