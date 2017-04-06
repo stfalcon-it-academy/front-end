@@ -7,17 +7,14 @@
   * `radioClass`
   * `checkboxClass`
   * `checkedClass`
-
 1. `file`
   * `fileClass`
   * `filenameClass`
   * `fileBtnClass`
   * `fileDefaultText`
   * `fileBtnText`
-
 1. `select`
   * `selectAutoWidth `
-
 1. `$.uniform.update()`
 
 ### Chosen.js
@@ -29,7 +26,6 @@
   * `no_results_text`
   * `max_selected_options`
   * `$(element).trigger("chosen:updated")`
-
 1. Події
   * `change`
   * `chosen:ready`
@@ -37,7 +33,6 @@
   * `chosen:showing_dropdown`
   * `chosen:hiding_dropdown`
   * `chosen:no_results`
-
 1. Події доступні для генерування
   * `chosen:updated`
   * `chosen:activate`
