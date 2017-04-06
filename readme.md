@@ -2,7 +2,6 @@
 
 ### Стилізація `checkbox` і `radio` засобами `CSS`
 ### Uniform.js
-
 1. `checkbox`, `radio`
   * `radioClass`
   * `checkboxClass`
