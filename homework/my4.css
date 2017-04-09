@@ -1,0 +1,53 @@
+.info-location {
+  background-color: #f7f7f7;
+  text-transform: uppercase;
+}
+.contacts {
+font-family: montserrat Regular;
+}
+.contacts:before {
+  content: " ";
+  height: 30px;
+  display: block;
+}
+.contacts:after {
+  content: " ";
+  height: 30px;
+  display: block;
+}
+.section-contacts {
+  background-color: #e7e7e7;
+  font-size: 14px;
+  margin: 0 auto;
+  width: 1170px;
+  height: 116px;
+}
+.contacts-1 {
+  float: left;
+  font-size: 30px;
+  color: #232323;
+  margin-top: 35px;
+  padding-left: 30px;
+}
+.contacts-2 {
+  float: right;
+  margin-top: 45px;
+  padding-right: 6px;
+}
+.contacts-2 a:hover {
+  color: #666666;
+}
+.contacts-2 a {
+  text-decoration: none;
+}
+.section-contacts2 {
+  color: #999999;
+  padding: 9px;
+}
+.drib {
+  color: #999999;
+}
+.section-contacts21 {
+  color: #999999;
+  padding: 9px;
+}

@@ -1,0 +1,61 @@
+html {
+  font-family: "montserrat Light", sans-serif;
+  font-size: 16px;
+  line-height: 1.73333;
+}
+.montserrat {
+}
+@font-face {
+  font-family: montserrat;
+  src: url(fonts/montserrat/montserrat.ttf);
+  font-family: montserrat Ligh;
+  src: url(fonts/montserrat/Montserrat-Light.otf);
+  font-family: montserrat Regular;
+  src: url(fonts/montserrat/Montserrat-Regular.otf);
+}
+.page-header {
+  background-color: #232323;
+  }
+body {
+   min-width: 1170px;
+ }
+.header-top {
+    background-color: #2b2b2b;
+  font-size: 14px;
+}
+.container {
+  margin: 0 auto;
+  width: 1170px;
+  color: #666666;
+}
+.header-mob {
+  float: left;
+  color: #7f7f7f;
+  text-decoration: none; /* Убираем подчеркивание у ссылок */
+  font-family: montserrat Ligh;
+}
+.header-login {
+  float: right;
+  font-family: montserrat Regular;
+  }
+.header-login, .header-mob {
+  padding: 5px 0;
+}
+.header-login a {
+  text-decoration: none; /* Убираем подчеркивание у ссылок */
+  color: #666666;
+}
+.header-login a:hover {
+  color: #3b3b3b;
+}
+.or {
+  color: #3b3b3b;
+  margin: 0 5px;
+}
+.clearfix::after {
+content: '';
+display: table;
+clear: both;
+}
+
+

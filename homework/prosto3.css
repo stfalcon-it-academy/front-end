@@ -1,0 +1,48 @@
+.header-nav {
+
+}
+.header-nav ul {
+  list-style: none;
+  padding: 0;
+  margin-left: -10px;
+}
+.header-nav li {
+  display: inline-block;
+  font-family: montserrat Regular;
+}
+.header-nav a {
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+  color: #eaeaea;
+}
+.header-nav li+li {
+  margin-left: 27px;
+}
+.header-nav a:hover, .header-nav .current a {
+  color: #be926f;
+}
+.header-bag {
+  width: 17px;
+  height: 22px;
+  background: url("Znaky/Bag.png") 0 0 no-repeat;
+  float: right;
+  padding: 10px;
+  background-origin:content-box;
+  text-decoration: none;
+  color: #232323;
+  font-size: 12px;
+  }
+.number-products {
+  background-color: #be926f;
+  border-radius: 59%;
+  width: 18px;
+  height: 18px;
+  display: inline-block;
+  text-align: center;
+  line-height: 18px;
+  position: relative;
+  top: -8px;
+  right: -9px;
+
+}

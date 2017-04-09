@@ -1,0 +1,31 @@
+.logo-funiture {
+float: left;
+  margin-top: 30px;
+}
+.poshuk {
+  float: right;
+  border: 1px solid #323232;
+  margin-top: 30px;
+ }
+.poshuk input {
+  display: inline-block;
+  height: 44px;
+  width: 217px;
+  vertical-align: top;
+  background: none;
+  border: none;
+  padding-left: 25px;
+  font-size: 13px;
+  color: #bcbcbc;
+}
+.poshuk button {
+  display: inline-block;
+  width: 55px;
+  height: 44px;
+  vertical-align: top;
+  background: url("Znaky/search.png") center center no-repeat;
+  border: none;
+}
+.input {
+  font-family: montserrat Ligh;
+}
