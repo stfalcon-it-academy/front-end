@@ -1,2 +1,12 @@
-##Курс по основах Front end від [IT Академії stfalcon.com](http://academy.stfalcon.com) 
-> Для навігації по уроках використовуйте гілки. Кожна гілка має свій номер, який відповідає номеру уроку.
+# jQuery UI
+### Spinner [?](https://jqueryui.com/spinner/)
+### Slider [?](https://jqueryui.com/slider/)
+### Datepicker [?](https://jqueryui.com/datepicker/)
+### Autocomplete [?](https://jqueryui.com/autocomplete/)
+### Tooltip [?](https://jqueryui.com/tooltip/)
+### Tabs [?](https://jqueryui.com/tabs/)
+### Accordion [?](https://jqueryui.com/accordion/)
+### Draggable [?](https://jqueryui.com/draggable/)
+### Droppable [?](https://jqueryui.com/droppable/)
+### Resizable [?](https://jqueryui.com/resizable/)
+### Sortable [?](https://jqueryui.com/sortable/)
