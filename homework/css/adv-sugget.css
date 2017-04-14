@@ -1,0 +1,169 @@
+.adv-sugget{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 2.5%;/*30px*/
+    margin-bottom: 32px;
+}
+
+
+.adv-sugget-column{
+    border:1px solid #e6e6e6;
+    height: 117px;
+    width: 568px;
+    line-height: 189px; /*для вертикального вирівнювання .column1 img */
+}
+
+.column1{
+    float: left;
+    padding-left: 3.169014084507042%; /*18px*/
+    padding-right: 3.169014084507042%; /*18px*/
+}
+
+.column2{
+    float: left;
+    padding: 4% 0;
+}
+
+.column2>div{
+    display: block;
+    font-size: 12px;
+    line-height:2;
+    color:#999999;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.column2>div+div{
+    line-height:1.1;
+    font-size: 17px;
+    color:#232323;
+}
+
+.column2>div:last-of-type{
+    font-size: 14px;
+    line-height:1.714285714285714;
+    text-decoration: none;
+    color: #be926f;
+}
+
+.column1 .part2{
+    padding-left: 52px;
+}
+
+
+@media screen and (max-width: 980px) {
+    .column1 .part2{
+        padding-left: 0;
+    }
+}
+
+.adv-sugget-column-lh{
+    line-height: 1.2;     /*перебиває line-height: заданий в класі.adv-sugget-column */
+}
+
+.adv-sugget-column {
+    position: relative;    /* для абсолютного позиціювання елементів у @media screen and (max-width: 880px)*/
+}
+
+.adv-sugget-column .small-adv{
+    position: relative;
+}
+
+.adv-sugget-column .small-adv a {
+    position: relative;
+    padding-left:60px;
+    text-decoration: none;
+    font-size: 12px;
+    line-height:5;
+    color:#999999;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.adv-sugget-column .small-adv:before{
+    content:" ";
+    position: absolute;
+    top: 28px;
+    left: 30px;
+    width: 20px;
+    height: 2px;
+    background-image: url("../images/icon-line.png");
+    z-index: 20;
+    /*text-align: center;*/
+}
+
+.small-adv+div{
+    position: relative;
+    top:-14px;
+    line-height:1.1;
+    padding-left:28px;
+    font-size: 20px;
+    color:#232323;
+}
+
+.sale-prise{
+    position: relative;
+    top:-8px;
+    padding-left:30px;
+    font-size: 16px;
+    line-height:1.5;
+    color: #be926f;
+}
+
+
+@media screen and (max-width: 1040px) {
+    .adv-sugget-column{
+        width: 49%;
+        min-width: 409px;
+    }
+}
+
+@media screen and (max-width: 880px) {
+    .adv-sugget-column:first-child{
+        display: flex;
+        align-items: center;
+
+    }
+
+    .column2 {
+        padding: 1.7% 0;
+    }
+
+    .adv-sugget-column {
+        display: flex;
+        justify-content: center;
+        margin: auto;
+        width: 84%;
+        margin-top: -2.2%;
+        height: 100px;
+        line-height: 4;
+    }
+
+    .small-adv + div {
+        top: 43px;
+        line-height: 1;
+        position: absolute;
+    }
+
+    .sale-prise {
+        position: absolute;
+        line-height: 1;
+        top: 69px;
+    }
+
+    .small-adv {
+        position: absolute;
+    }
+}
+
+
+@media screen and (max-width: 640px) {
+    .adv-sugget-column {
+        line-height: 3;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .adv-sugget-column {
+        line-height: 2;
+    }
+}
