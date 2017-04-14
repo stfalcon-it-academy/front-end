@@ -1,0 +1,26 @@
+body {
+margin-left: 25px;
+}
+p {
+  margin-top: 0.5em;
+  margin-bottom: 2em;
+  font-family: 'Montserrat Light', sans-serif;
+  font-size: 15px;
+  line-height: 1.25em;
+}
+div {
+  line-height: 0.9em;
+}
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  font-size: 24px;
+}
+pre {
+  font-family: 'Montserrat Light', sans-serif;
+  font-size: 14px;
+ margin-bottom: 1.5em;
+}
+b {
+  font-weight: 600;
+}
