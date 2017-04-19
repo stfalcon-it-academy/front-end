@@ -8,8 +8,8 @@ ___
 
 ___
 ### `LESS` [?](http://lesscss.org)
-1. Підключення в браузері [?](http://lesscss.org/#client-side-usage)
-1. Синтаксис
+-  Підключення в браузері [?](http://lesscss.org/#client-side-usage)
+-  Синтаксис
  - вкладені правила [?](http://lesscss.org/features/#features-overview-feature-nested-rules)
  - вкладені `@media` [?](http://lesscss.org/features/#features-overview-feature-nested-directives-and-bubbling)
  - змінні [?](http://lesscss.org/features/#features-overview-feature-variables)
@@ -18,13 +18,13 @@ ___
  - екранування [?](http://lesscss.org/features/#features-overview-feature-escaping)
  - коментарі [?](http://lesscss.org/features/#features-overview-feature-comments)
  - імпорт [?](http://lesscss.org/features/#import-directives-feature)
-1. Функції
+- Функції
  - розмір зображень [?](http://lesscss.org/functions/#misc-functions-image-size)
  - `data-uri` [?](http://lesscss.org/functions/#misc-functions-data-uri)
  - `lighten` [?](http://lesscss.org/functions/#color-operations-lighten)
  - `darken` [?](http://lesscss.org/functions/#color-operations-darken)
  - `fade` [?](http://lesscss.org/functions/#color-operations-fade)
-1. `grunt-contrib-less` [?](https://github.com/gruntjs/grunt-contrib-less)
+- `grunt-contrib-less` [?](https://github.com/gruntjs/grunt-contrib-less)
 
 ___
 # Лінки
