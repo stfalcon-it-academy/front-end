@@ -8,8 +8,8 @@ ___
 
 ___
 ### `LESS` [?](http://lesscss.org)
--  Підключення в браузері [?](http://lesscss.org/#client-side-usage)
--  Синтаксис
+- Підключення в браузері [?](http://lesscss.org/#client-side-usage)
+- Синтаксис
   - вкладені правила [?](http://lesscss.org/features/#features-overview-feature-nested-rules)
   - вкладені `@media` [?](http://lesscss.org/features/#features-overview-feature-nested-directives-and-bubbling)
   - змінні [?](http://lesscss.org/features/#features-overview-feature-variables)
