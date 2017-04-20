@@ -27,6 +27,7 @@
 1. Diff.
 1. Revert.
 
+
 ###Використання Git на даному курсі
 1. `Fork` (_GitHub_)
 1. `Checkout from Version Control` → `GitHub` (_WebStorm_)
@@ -47,6 +48,7 @@
 - [Documentation](https://git-scm.com/doc)
 - [Pro Git](https://git-scm.com/book/en/v2)
 - [Git How To](https://githowto.com/ru)
+- [Шпаргалка по роботі з Git](http://eax.me/git-commands/)
 - [GitHub for Cats!](http://ericsteinborn.com/github-for-cats/#/)
 - [Syncing a fork](https://help.github.com/articles/syncing-a-fork/)
 - [Markdown. Basic writing and formatting syntax](https://help.github.com/articles/basic-writing-and-formatting-syntax/)
