@@ -12,11 +12,14 @@ h1{
 }
 .details{
   padding: 0;
-
-.details li {
+}
+.details li{
   display: inline;
 }
-.details li:first-child:before {
-  content:'|';
+.details li:before{
+  content:"|";
   margin: 0 20px;
+}
+.details li:first-child:before{
+ display: none;0
 }
