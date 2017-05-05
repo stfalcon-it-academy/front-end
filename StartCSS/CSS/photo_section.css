@@ -1,0 +1,28 @@
+#list1 li {
+  list-style: none;
+}
+#list1 {
+  margin: 0;
+  padding: 0;
+}
+.photo_product {
+  position: relative;
+  margin: 0 auto;
+  max-width: 1170px;
+  display: block;
+}
+.photo-list {
+  margin: 0 auto;
+  padding: 0;
+}
+.photo-list-item {
+  float: right;
+  margin: 0 auto;
+}
+.photo_section {
+  float: left;
+  width: 667px;
+}
+. opys-product {
+  float: right;
+}

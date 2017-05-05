@@ -1,0 +1,17 @@
+@import "prosto.css";
+@import "prosto2.css";
+@import "prosto3.css";
+@import "my4.css";
+@import "media.css";
+@import "normalize.css";
+@import "photo_section.css";
+@import "reytyng.css";
+@font-face {
+  font-family: montserrat Light;
+  src: url(fonts/montserrat/Montserrat-Light.otf);
+  font-family: montserrat Regular;
+  src: url(fonts/montserrat/Montserrat-Regular.otf);
+  font-family: montserrat-SemiBold;
+  src: url(fonts/montserrat/Montserrat-SemiBold.otf);font-family: montserrat-SemiBold;
+  src: url(fonts/montserrat/MontserratAlternates-Bold.otf);
+}
