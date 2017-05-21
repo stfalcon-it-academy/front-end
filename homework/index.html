@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+  <style>
+    /*стилі до body */
+    body{}
+    html body{}
+    /*стилі до section*/
+    section{}
+    body section{}
+    body>section{}
+    html body section{}
+    html>body>section{}
+    #lesson-plan{}
+    body #lesson-plan{}
+    body>#lesson-plan{}
+    html body #lesson-plan{}
+    html>body>#lesson-plan{}
+    [id|="lesson"]{}
+    [id^="lesson"]{}
+    [id$="plan"]{}
+
+    /*стилі до h1*/
+    h1{}
+    body section h1{}
+    body>section>h1{}
+    section h1{}
+    section>h1{}
+    body #lesson-plan h1{}
+    #lesson-plan h1{}
+    body>#lesson-plan>h1{}
+    #lesson-plan>h1{}
+    /*стилі до h2*/
+    h2{}
+    body section h2{}
+    body>section>h2{}
+    section h2{}
+    section>h2{}
+    body #lesson-plan h2{}
+    body>#lesson-plan>h2
+    #lesson-plan>h2
+    #lesson-plan h2
+    h1+h2{}
+    /*стилі до ol*/
+    ol{}
+    body section ol{}
+    body>section>ol{}
+    section ol{}
+    section>ol{}
+    body #lesson-plan ol{}
+    body>#lesson-plan>ol{}
+    #lesson-plan ol{}
+    #lesson-plan>ol{}
+    h2+ol{}
+
+    /*стилі до li*/
+    li{}
+    section ol li{}
+    section>ol>li{}
+    #lesson-plan ol li{}
+    #lesson-plan>ol>li{}
+    ol li{}
+    ol>li{}
+
+    /*стилі до code*/
+    code{}
+    ol>li>code{}
+    ol li code{}
+    li code{}
+    li>code{}
+  </style>
+</head>
+<body>
+<section id="lesson-plan">
+  <h1>
+    Введення в CSS
+  </h1>
+  <h2>
+    Способи додавання CSS на сторінку
+  </h2>
+  <ol>
+    <li>
+      <code>
+        &lt;link rel="stylesheet" href="#"&gt;
+      </code>
+    </li>
+  </ol>
+</section>
+</body>
+</html>
