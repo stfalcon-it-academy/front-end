@@ -27,7 +27,7 @@
 1. `font-weight`
 1. `font-style`
 1. `color`
-  - `currentColor`
+    - `currentColor`
   
 1. `text-decoration`
 1. `text-transform`
@@ -36,10 +36,10 @@
 1. `line-height`
 1. `white-space`
 1. `columns`
-  - `column-count`
-  - `column-width`
-  - `column-gap`
-  - `column-rule`
+    - `column-count`
+    - `column-width`
+    - `column-gap`
+    - `column-rule`
   
 1. `text-shadow`
 1. `font-variant`
@@ -47,9 +47,9 @@
 1. `word-spacing`
 1. `user-select`
 1. Нестандартні шрифти.
- - [Google Fonts](https://fonts.google.com)
- - [Font Squirrel](https://www.fontsquirrel.com)
- - [allfont](http://allfont.net)
+   - [Google Fonts](https://fonts.google.com)
+   - [Font Squirrel](https://www.fontsquirrel.com)
+   - [allfont](http://allfont.net)
  
 ### Спецсимволи [?](https://css-tricks.com/snippets/html/glyphs/)
 ### Наслідування
