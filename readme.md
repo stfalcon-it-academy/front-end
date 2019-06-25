@@ -17,11 +17,11 @@
 
 ### Стилізація тексту
 1. `font-family`
-  - `serif`
-  - `sans-serif`
-  - `monospace`
-  - `cursive`
-  - `fantasy`
+    - `serif`
+    - `sans-serif`
+    - `monospace`
+    - `cursive`
+    - `fantasy`
   
 1. `font-size`
 1. `font-weight`
