@@ -1,0 +1,14 @@
+html{
+  font-family: 'Montserrat', sans-serif;
+}
+
+h1  {
+  color: #000000;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.text {
+  color: #484848;
+  font-size: 15px;
+}
